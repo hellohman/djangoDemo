@@ -7,21 +7,22 @@ from django.shortcuts import render
 from cmdb import models
 
 
-def index(request):
+def addUser(request):
     # return render(request, 'index.html', )
     # return HttpResponse('Hello world!')
 
-    user_list = []
     if request.method == 'POST':
-        username = request.POST.get('username',None)
-        password = request.POST.get('password',None)
-        user_list.append({'user': username, 'pswd': password})
-        models.UserInfo.objects.create(user=username,pswd=password)
-        user_list = models.UserInfo.objects.all()
-    return render(request, 'index.html', {'data': user_list})
-
-def rt_html(request):       # 返回静态页面
-    return render(request, 'index.html', )
+        user = request.POST.get('username',None)
+        pswd = request.POST.get('password',None)
+        if user not in [each.user for each in models.UserInfo.objects.all()]:
+            if pswd:
+                models.UserInfo.objects.create(user=user,pswd=pswd)
+                return render(request, 'addUser.html', {'data': models.UserInfo.objects.all()})
+            else:
+                return HttpResponse("密码不能为空")
+        return HttpResponse("用户名已存在")
+    else:       # 返回页面
+        return render(request, 'addUser.html', )
 
 def rt_json(request):       # 返回json
     test = {'name':'晃晃','age':21}

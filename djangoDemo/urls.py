@@ -19,7 +19,6 @@ from django.urls import path
 from cmdb import views
 
 urlpatterns = [
-    path(r'index/test/',views.index),
-    path(r'rt_html/',views.rt_html),
+    path(r'addUser/',views.addUser),
     path(r'rt_json/',views.rt_json)
 ]
