@@ -2,9 +2,9 @@ import json
 
 from django.http import HttpResponse
 from django.shortcuts import render
+from cmdb import models
 
 # Create your views here.
-from cmdb import models
 
 
 def addUser(request):
