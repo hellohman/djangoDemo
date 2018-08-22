@@ -4,20 +4,16 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from cmdb import models
 
-# Create your views here.
-
 
 def addUser(request):
-    # return render(request, 'index.html', )
-    # return HttpResponse('Hello world!')
-
     if request.method == 'POST':
         user = request.POST.get('username', None)
         pswd = request.POST.get('password', None)
         if user not in [each.user for each in models.UserInfo.objects.all()]:
             if pswd:
                 models.UserInfo.objects.create(user=user, pswd=pswd)
-                return render(request, 'addUser.html', {'data': models.UserInfo.objects.all()})
+                data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
+                return render(request, 'addUser.html', {'data': data})
             else:
                 return HttpResponse("密码不能为空")
         return HttpResponse("用户名已存在")

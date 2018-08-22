@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="/static/easyUI/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/static/easyUI/mobile.css">
+    <link rel="stylesheet" type="text/css" href="/static/easyUI/icon.css">
+    <script type="text/javascript" src="/static/easyUI/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/easyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/easyUI/jquery.easyui.mobile.js"></script>
     <title>测试</title>
 </head>
 <body>
@@ -13,19 +20,21 @@
 </form>
 <hr />
 <h1>用户展示</h1>
-<table border="1">
+<table id="dg" data-options="header:'#hh',singleSelect:true,border:false,fit:true,fitColumns:false,scrollbarSize:0">
     <thead>
-    <th>用户名</th>
-    <th>密码</th>
+    <tr>
+        <th data-options="field:'user',width:80">用户名</th>
+        <th data-options="field:'pswd',width:100">密码</th>
+    </tr>
     </thead>
-    <tbody>
-    {% for each in data %}
-        <tr>
-            <td>{{ each.user }}</td>
-            <td>{{ each.pswd }}</td>
-        </tr>
-    {% endfor %}
-    </tbody>
 </table>
+<script>
+    var data = {{ data|safe }};
+    $(function(){
+        $('#dg').datagrid({
+            data: data
+        });
+    });
+</script>
 </body>
 </html>
