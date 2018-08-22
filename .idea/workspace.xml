@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/easyui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icon.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/back.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/clear.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/cut.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/edit_add.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/edit_remove.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/filesave.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/filter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/help.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/large_chart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/large_clipart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/large_picture.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/large_shapes.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/large_smartart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/lock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/man.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/mini_add.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/mini_edit.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/mini_refresh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/more.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/no.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/ok.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/pencil.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/print.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/redo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/reload.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/search.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/sum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/tip.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/icons/undo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/accordion_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/blank.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/calendar_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/combo_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/datagrid_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/datebox_arrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/layout_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/linkbutton_bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/menu_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/messager_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/pagination_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/panel_tools.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/passwordbox_close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/passwordbox_open.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/searchbox_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/slider_handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/spinner_arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/tabs_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/tagbox_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/tree_icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/images/validatebox_warning.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/jquery.easyui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/jquery.easyui.mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/easyUI/mobile.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmdb/views.py" afterPath="$PROJECT_DIR$/cmdb/views.py" />
-      <change beforePath="$PROJECT_DIR$/djangoDemo/settings.py" afterPath="$PROJECT_DIR$/djangoDemo/settings.py" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/easyui.css" afterPath="$PROJECT_DIR$/static/easyUI/easyui.css" />
       <change beforePath="$PROJECT_DIR$/templates/addUser.html" afterPath="$PROJECT_DIR$/templates/addUser.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,8 +19,8 @@
       <file leaf-file-name="addUser.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/addUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="196">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -89,7 +29,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1291">
+            <state relative-caret-position="335">
               <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
               <folding />
             </state>
@@ -99,8 +39,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -131,6 +71,7 @@
     <findStrings>
       <find>MIDDLEWARE</find>
       <find>sta</find>
+      <find>STATIC_URL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,8 +88,8 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/cmdb/models.py" />
         <option value="$PROJECT_DIR$/djangoDemo/urls.py" />
-        <option value="$PROJECT_DIR$/djangoDemo/settings.py" />
         <option value="$PROJECT_DIR$/cmdb/views.py" />
+        <option value="$PROJECT_DIR$/djangoDemo/settings.py" />
         <option value="$PROJECT_DIR$/templates/addUser.html" />
       </list>
     </option>
@@ -259,7 +200,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
       <recent name="D:\项目\HH\djangoDemo\static" />
+      <recent name="D:\项目\HH\djangoDemo\static_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
@@ -400,12 +343,12 @@
       <workItem from="1534843518629" duration="283000" />
       <workItem from="1534843898743" duration="1843000" />
       <workItem from="1534846159390" duration="2208000" />
-      <workItem from="1534901686951" duration="8204000" />
+      <workItem from="1534901686951" duration="13932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12538000" />
+    <option name="totallyTimeSpent" value="18266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
@@ -418,12 +361,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2191358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22478157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,7 +436,7 @@
         <state relative-caret-position="399">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,7 +472,7 @@
         <state relative-caret-position="342">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,7 +516,7 @@
         <state relative-caret-position="399">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,14 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Python/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="287" column="8" lean-forward="false" selection-start-line="287" selection-start-column="8" selection-end-line="287" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -707,33 +642,41 @@
         <state relative-caret-position="437">
           <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
+    <entry file="file://E:/Python/Lib/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1291">
-          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+        <state relative-caret-position="160">
+          <caret line="547" column="8" lean-forward="false" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmdb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/addUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="85" lean-forward="false" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        <state relative-caret-position="196">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
