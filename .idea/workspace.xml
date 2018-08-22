@@ -2,8 +2,896 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/changelog.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/fade.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/pop.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/slide.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/tabs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/style.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/switch.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datagrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datagrid/rowediting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/selection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/dialog/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/dialog/message.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/form/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/login1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/modem.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/pda.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/scanner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/tablet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/input/numberspinner.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/input/textbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/layout/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/menu/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/menu/menubar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/ajax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/image.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/link.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/pill.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/menu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tree/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tree/dnd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/ajax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/datagrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/expandable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/horizontal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/multiple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/tools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/custom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/disabledate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/firstday.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/weeknumber.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/checkbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combo/animation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combo/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/combobox_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/combobox_data2.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/customformat.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/dynamicdata.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/icons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/itemicon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/multiline.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/multiple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/navigation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/remotedata.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/remotejsonp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/datagrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/initvalue.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/multiple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/navigation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/setvalue.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/initvalue.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/multiple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/tree_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/multiple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/treegrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/aligncolumns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cacheeditor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cellediting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cellstyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/checkbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/clientpagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/columngroup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/complextoolbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/contextmenu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/datagrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/datagrid_data2.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/formatcolumns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/frozencolumns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/frozenrows.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/mergecells.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/multisorting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/products.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowborder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowediting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowstyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/selection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/simpletoolbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/transform.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/checkbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/datalist_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/multiselect.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/remotedata.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/buttons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/clone.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/dateformat.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/events.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/restrict.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/sharedcalendar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/validate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/initvalue.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/showseconds.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/clearicon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/format.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/complextoolbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/toolbarbuttons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/constrain.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/snap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/accept.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/sort.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/easyloader/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/buttonalign.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/form_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/load.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/validateonsubmit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/addremove.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/autoheight.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/collapsetitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/complex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/customcollapsetitle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/datagrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/full.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/nestedlayout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/nocollapsible.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/propertygrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/tree_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/group.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/iconalign.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/plain.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/size.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/style.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/toggle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/maskedbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/customitem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/events.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/inline.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/alignment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/nav.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/alert.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/interactive.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/position.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/format.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/align.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/increment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/attaching.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/custombuttons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/layout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/links.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/customtools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/halign.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/loadcontent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/nestedpanel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/paneltools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/flash.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/validatepassword.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/progressbar/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/progressbar/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/customcolumns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/groupformat.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/propertygrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/radiobutton/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/resizable/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/category.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/sidemenu_style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/style.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/formattip.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/nonlinear.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/rule.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/vertical.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/splitbutton/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/splitbutton/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/switchbutton/action.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/switchbutton/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/autoheight.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/dropdown.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/fixedwidth.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/hover.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/modem.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/pda.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/scanner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/tablet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/nestedtabs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/striptools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/style.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabimage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabposition.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabstools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tree_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/autocomplete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/format.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/style.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/tagbox_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/validate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/button.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/clearicon.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/custom.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/icons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/multiline.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/size.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/range.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/_content.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/_dialog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/ajax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/customcontent.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/customstyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/position.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/toolbar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/tooltipdialog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/animation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/checkbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/contextmenu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/customcheckbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/dnd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/editable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/formatting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/icons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/lazyload.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/lines.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/tree_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/tree_data2.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/actions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/checkbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/clientpagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/contextmenu.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/customcheckbox.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/editable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/lines.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/reports.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data1.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data2.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data3.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/customtooltip.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/errorplacement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/validateonblur.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/basic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/borderstyle.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/customtools.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/inlinewindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/modalwindow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/windowlayout.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/easyloader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/license_freeware.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-af.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-am.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-cz.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-fa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-jp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-pt_BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-sv_SE.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-zh_CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/locale/easyui-lang-zh_TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.checkbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.combo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.combobox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.combogrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.combotree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.combotreegrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.datagrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.datalist.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.datebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.datetimebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.datetimespinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.draggable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.droppable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.filebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.layout.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.linkbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.maskedbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.menubutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.messager.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.mobile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.numberbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.numberspinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.panel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.passwordbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.progressbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.propertygrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.radiobutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.searchbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.sidemenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.spinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.splitbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.switchbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.tabs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.tagbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.textbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.timespinner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.tooltip.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.tree.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.treegrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.validatebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/plugins/jquery.window.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/easyloader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.accordion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.calendar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.combobox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.datebox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.draggable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.droppable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.linkbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.progressbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.propertygrid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.resizable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.slider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.tabs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/jquery.window.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/angular.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/color.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/gray/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/more.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material-teal/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/easyui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/material/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/accordion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/calendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/checkbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/combo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/combobox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/datagrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/datalist.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/datebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/filebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/accordion_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/blank.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/calendar_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/combo_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/datagrid_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/datebox_arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/layout_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/linkbutton_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/menu_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/messager_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/pagination_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/panel_tools.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/passwordbox_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/passwordbox_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/searchbox_button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/slider_handle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/spinner_arrows.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/tabs_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/tagbox_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/tree_icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/images/validatebox_warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/layout.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/linkbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/messager.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/numberbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/panel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/passwordbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/progressbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/propertygrid.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/radiobutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/searchbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/sidemenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/slider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/spinner.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/switchbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/tabs.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/tagbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/textbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/tooltip.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/tree.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/validatebox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/window.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/vue.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmdb/views.py" afterPath="$PROJECT_DIR$/cmdb/views.py" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/easyui.css" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/metro/easyui.css" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icon.css" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icon.css" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/back.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/back.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/blank.gif" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/blank.gif" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/cancel.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/cancel.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/clear.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/clear.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/cut.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/cut.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/edit_add.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/edit_add.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/edit_remove.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/edit_remove.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/filesave.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/filesave.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/filter.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/filter.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/help.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/help.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/large_chart.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/large_chart.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/large_clipart.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/large_clipart.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/large_picture.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/large_picture.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/large_shapes.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/large_shapes.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/large_smartart.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/large_smartart.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/lock.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/lock.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/man.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/man.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/mini_add.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/mini_add.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/mini_edit.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/mini_edit.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/mini_refresh.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/mini_refresh.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/more.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/more.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/no.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/no.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/ok.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/ok.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/pencil.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/pencil.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/print.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/print.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/redo.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/redo.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/reload.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/reload.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/search.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/searchbox_button.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/sum.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/sum.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/tip.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/tip.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/icons/undo.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icons/undo.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/accordion_arrows.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/accordion_arrows.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/blank.gif" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/blank.gif" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/calendar_arrows.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/calendar_arrows.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/combo_arrow.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/combo_arrow.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/datagrid_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/datagrid_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/datebox_arrow.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/datebox_arrow.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/layout_arrows.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/layout_arrows.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/linkbutton_bg.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/linkbutton_bg.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/loading.gif" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/loading.gif" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/menu_arrows.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/menu_arrows.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/messager_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/messager_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/pagination_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/pagination_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/panel_tools.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/panel_tools.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/passwordbox_close.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/passwordbox_close.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/passwordbox_open.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/passwordbox_open.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/searchbox_button.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/searchbox_button.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/slider_handle.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/slider_handle.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/spinner_arrows.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/spinner_arrows.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/tabs_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/tabs_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/tagbox_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/tagbox_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/tree_icons.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/bootstrap/images/tree_icons.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/images/validatebox_warning.png" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/black/images/validatebox_warning.png" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.min.js" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/jquery.easyui.mobile.js" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.mobile.js" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/jquery.min.js" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/static/easyUI/mobile.css" afterPath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/mobile.css" />
       <change beforePath="$PROJECT_DIR$/templates/addUser.html" afterPath="$PROJECT_DIR$/templates/addUser.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +907,28 @@
       <file leaf-file-name="addUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/addUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="62">
+              <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custompager.html" pinned="false" current-in-tab="true">
+        <entry file="file://E:/easyUI/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basic.html" pinned="false" current-in-tab="false">
+        <entry file="file://E:/easyUI/jquery-easyui-1.5.5.7/demo/form/basic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="45" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -46,11 +954,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -98,9 +1006,10 @@
         <option value="$PROJECT_DIR$/cmdb/models.py" />
         <option value="$PROJECT_DIR$/djangoDemo/urls.py" />
         <option value="$PROJECT_DIR$/djangoDemo/settings.py" />
-        <option value="$PROJECT_DIR$/templates/addUser.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/cmdb/views.py" />
+        <option value="$PROJECT_DIR$/templates/addUser.html" />
+        <option value="E:/easyUI/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html" />
       </list>
     </option>
   </component>
@@ -180,7 +1089,7 @@
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="easyUI" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-easyui-1.5.5.7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -210,11 +1119,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
       <recent name="D:\项目\HH\djangoDemo\static" />
+      <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
       <recent name="D:\项目\HH\djangoDemo\static_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\项目\HH\djangoDemo\static" />
       <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
       <recent name="D:\项目\HH\djangoDemo\templates\easyUI" />
     </key>
@@ -353,12 +1263,12 @@
       <workItem from="1534843518629" duration="283000" />
       <workItem from="1534843898743" duration="1843000" />
       <workItem from="1534846159390" duration="2208000" />
-      <workItem from="1534901686951" duration="17109000" />
+      <workItem from="1534901686951" duration="19615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21443000" />
+    <option name="totallyTimeSpent" value="23949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
@@ -371,7 +1281,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24691358" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3595679" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -383,7 +1293,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28549382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -429,7 +1339,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -592,9 +1504,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,40 +1512,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="11618" column="0" lean-forward="false" selection-start-line="11618" selection-start-column="0" selection-end-line="11618" selection-end-column="0" />
-          <folding>
-            <marker date="1534815778000" expanded="true" signature="3500:3566" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="3659:3673" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="21341:21353" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="22480:22486" ph="&amp;nbsp;" />
-            <marker date="1534815778000" expanded="true" signature="22560:22566" ph="&amp;nbsp;" />
-            <marker date="1534815778000" expanded="true" signature="26875:26892" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="27259:27277" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="28223:28234" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="35310:35316" ph="&amp;nbsp;" />
-            <marker date="1534815778000" expanded="true" signature="45141:45153" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="59062:59070" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="89154:89166" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="89316:89328" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="100863:100874" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="101244:101255" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="101695:101706" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="113658:113669" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="173238:173250" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="244680:244692" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="261895:261927" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="268727:268758" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="282227:282257" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="308874:308887" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="308967:308989" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="330273:330279" ph="&amp;nbsp;" />
-            <marker date="1534815778000" expanded="true" signature="346583:346593" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="363347:363357" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="363421:363429" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="432073:432085" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="433159:433169" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="438015:438026" ph="..." />
-            <marker date="1534815778000" expanded="true" signature="443160:443170" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -643,14 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="547" column="8" lean-forward="false" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -671,26 +1540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Python/Lib/site-packages/django/shortcuts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -711,13 +1564,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/Python/Lib/email/message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="462" column="31" lean-forward="false" selection-start-line="462" selection-start-column="24" selection-end-line="462" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/src/easyloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmdb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="234">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/easyUI/jquery-easyui-1.5.5.7/demo/form/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/addUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/easyUI/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
