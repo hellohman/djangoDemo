@@ -1,14 +1,16 @@
 import json
+import traceback
 
-from django.http import HttpResponse
+from django.core.paginator import Paginator
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from cmdb import models
 
 
 def addUser(request):
     if request.method == 'POST':
-        user = request.POST.get('username', None)
-        pswd = request.POST.get('password', None)
+        user = request.POST.get('user', None)
+        pswd = request.POST.get('pswd', None)
         if user not in [each.user for each in models.UserInfo.objects.all()]:
             if pswd:
                 models.UserInfo.objects.create(user=user, pswd=pswd)
@@ -22,5 +24,5 @@ def addUser(request):
 
 
 def rt_json(request):       # 返回json
-    test = {'name': '晃晃', 'age': 21}
-    return HttpResponse(json.dumps(test), content_type="application/json")
+    data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
+    return HttpResponse(json.dumps(data), content_type="application/json")
