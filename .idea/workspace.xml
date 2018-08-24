@@ -2,355 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/addUser.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmdb/views.py" afterPath="$PROJECT_DIR$/cmdb/views.py" />
-      <change beforePath="$PROJECT_DIR$/djangoDemo/urls.py" afterPath="$PROJECT_DIR$/djangoDemo/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/accordion/header.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/fade.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/pop.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/animation/slide.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/list.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/badge/tabs.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/button/switch.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datagrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datagrid/rowediting.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/datalist/selection.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/dialog/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/dialog/message.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/form/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/login1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/modem.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/more.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/pda.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/scanner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/images/tablet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/input/numberspinner.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/input/textbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/layout/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/menu/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/menu/menubar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/panel/nav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/image.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/simplelist/link.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/nav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tabs/pill.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/toolbar/menu.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tree/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo-mobile/tree/dnd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/datagrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/expandable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/horizontal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/multiple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/accordion/tools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/custom.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/disabledate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/firstday.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/calendar/weeknumber.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/checkbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combo/animation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combo/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/combobox_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/combobox_data2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/customformat.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/dynamicdata.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/icons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/itemicon.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/multiline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/multiple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/navigation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/remotedata.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combobox/remotejsonp.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/datagrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/initvalue.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/multiple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/navigation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combogrid/setvalue.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/initvalue.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/multiple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotree/tree_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/multiple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/combotreegrid/treegrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/aligncolumns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cacheeditor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cellediting.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/cellstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/checkbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/clientpagination.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/columngroup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/complextoolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/contextmenu.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/datagrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/datagrid_data2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/formatcolumns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/frozencolumns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/frozenrows.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/mergecells.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/multisorting.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/products.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowborder.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowediting.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/rowstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/selection.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/simpletoolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datagrid/transform.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/checkbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/datalist_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/multiselect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datalist/remotedata.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/buttons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/clone.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/dateformat.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/events.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/restrict.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/sharedcalendar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datebox/validate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/initvalue.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimebox/showseconds.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/clearicon.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/datetimespinner/format.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/complextoolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/dialog/toolbarbuttons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/constrain.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/draggable/snap.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/accept.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/droppable/sort.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/easyloader/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/buttonalign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/filebox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/form_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/load.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/form/validateonsubmit.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/addremove.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/autoheight.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/collapsetitle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/complex.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/customcollapsetitle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/datagrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/full.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/nestedlayout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/nocollapsible.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/propertygrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/layout/tree_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/iconalign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/plain.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/size.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/linkbutton/toggle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/maskedbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/customitem.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/events.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/inline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menu/nav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/alignment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/menubutton/nav.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/alert.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/interactive.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/messager/position.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/format.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberbox/range.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/align.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/increment.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/numberspinner/range.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/attaching.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/custombuttons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/layout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/links.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/pagination/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/customtools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/halign.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/loadcontent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/nestedpanel.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/panel/paneltools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/flash.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/passwordbox/validatepassword.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/progressbar/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/progressbar/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/customcolumns.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/groupformat.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/propertygrid/propertygrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/radiobutton/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/resizable/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/category.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/searchbox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/sidemenu_style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/sidemenu/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/formattip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/nonlinear.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/range.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/rule.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/slider/vertical.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/splitbutton/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/splitbutton/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/switchbutton/action.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/switchbutton/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/autoheight.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/dropdown.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/fixedwidth.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/hover.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/modem.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/pda.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/scanner.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/images/tablet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/nestedtabs.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/striptools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabimage.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabposition.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tabstools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tabs/tree_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/autocomplete.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/format.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/tagbox_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tagbox/validate.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/clearicon.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/custom.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/icons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/multiline.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/textbox/size.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/timespinner/range.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/_content.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/_dialog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/ajax.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/customcontent.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/customstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/position.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/toolbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tooltip/tooltipdialog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/animation.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/checkbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/contextmenu.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/customcheckbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/dnd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/editable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/formatting.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/icons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/lazyload.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/lines.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/tree_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/tree/tree_data2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/actions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/checkbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/clientpagination.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/contextmenu.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/customcheckbox.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/editable.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/lines.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/reports.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data1.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data2.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/treegrid/treegrid_data3.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/customtooltip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/errorplacement.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/validatebox/validateonblur.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/borderstyle.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/customtools.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/fluid.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/inlinewindow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/modalwindow.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/window/windowlayout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/addUser.html" afterPath="$PROJECT_DIR$/templates/addUser.html" />
+      <change beforePath="$PROJECT_DIR$/static/addUser.js" afterPath="$PROJECT_DIR$/static/addUser.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -365,21 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addUser.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addUser.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/addUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="-77">
               <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addUser.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addUser.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/addUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            <state relative-caret-position="114">
+              <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -395,34 +48,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2432">
-              <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="513">
               <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketserver.py" pinned="false" current-in-tab="false">
-        <entry file="file://E:/Python/Lib/socketserver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11818">
-              <caret line="625" column="0" lean-forward="false" selection-start-line="625" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -542,12 +175,6 @@
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-easyui-1.5.5.7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -751,12 +378,12 @@
       <workItem from="1534988479433" duration="9207000" />
       <workItem from="1535003932687" duration="7072000" />
       <workItem from="1535011278043" duration="7069000" />
-      <workItem from="1535074480375" duration="427000" />
+      <workItem from="1535074480375" duration="5580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47816000" />
+    <option name="totallyTimeSpent" value="52969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,7 +418,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132716" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39506173" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -892,29 +519,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/easyUI/jquery-easyui-1.5.5.7/demo/datagrid/custompager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/addUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmdb/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1052,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1070,22 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,6 +757,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="153" column="0" lean-forward="false" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,6 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,6 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmdb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1224,18 +801,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/addUser.js">
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.easyui.mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/default/easyui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/themes/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/demo/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.5.5.7/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/addUser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="-77">
           <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdb/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/addUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
           <folding />
         </state>
       </provider>
