@@ -1,0 +1,57 @@
+https://www.cnblogs.com/geekmao/p/7612430.html
+
+启动:
+    1.命令行方式    python manage.py runserver 127.0.0.1:8000
+    2.IDE方式
+
+APP-数据库:
+    1.创建APP: python manage.py startapp cmdb
+    2.修改settings.py DATABASES + INSTALLED_APPS
+    例:
+        INSTALLED_APPS  添加: 'cmdb',
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'django',
+            'USER': 'root',
+            'PASSWORD': 'huanghai1995',
+            'HOST':'localhost',
+            'PORT':'3306',
+            'CHARSET': 'utf-8',
+        }
+    3.进入manage.py所在目录,cmd执行   python manage.py makemigrations  +  python manage.py migrate
+
+Mysql:
+    增:
+        1.
+            models.UserInfo.objects.create(user='yangmv',pwd='123456')
+        2.
+            obj = models.UserInfo(user='yangmv',pwd='123456')
+            obj.save()
+        3.
+            dic = {'user':'yangmv','pwd':'123456'}
+            models.UserInfo.objects.create(**dic)
+    删:
+        models.UserInfo.objects.filter(user='yangmv').delete()
+    改:
+        1.
+            models.UserInfo.objects.filter(user='yangmv').update(pwd='520')
+        2.
+            obj = models.UserInfo.objects.get(user='yangmv')
+            obj.pwd = '520'
+            obj.save()
+    查:
+        models.UserInfo.objects.all()
+        models.UserInfo.objects.all().values('user')    #只取user列
+        models.UserInfo.objects.all().values_list('id','user')    #取出id和user列，并生成一个列表
+        models.UserInfo.objects.get(id=1)
+        models.UserInfo.objects.get(user='yangmv')
+    模糊查询:
+        1.单个字段
+            models.UserInfo.objects.filter(user__icontains='5')     忽略大小写
+            models.UserInfo.objects.filter(user__contains='5')      精确大小写
+        2.多个字段
+            Q(condition1)|Q(condition2)                             or
+            Q(condition1),Q(condition2)                             and
+
+    字段:
+        https://www.cnblogs.com/zh605929205/articles/7103825.html
