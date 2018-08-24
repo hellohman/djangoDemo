@@ -12,7 +12,7 @@ def addUser(request):
         pswd = request.POST.get('pswd', None)
         if user not in [each.user for each in models.UserInfo.objects.all()]:
             if pswd:
-                models.UserInfo.objects.create(user=user, pswd=pswd)
+                # models.UserInfo.objects.create(user=user, pswd=pswd)
                 data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
                 return render(request, 'addUser.html', {'data': data})
             else:

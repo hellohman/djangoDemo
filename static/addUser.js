@@ -38,21 +38,23 @@ function clearForm(){
 $(function(){
     $('#dg').datagrid({
         columns:[[
-            {field:'user',title:'用户名',width:350,align:'center'},
-            {field:'pswd',title:'密码',width:350,align:'center'}
+            {field:'ck',checkbox:true},     // 复选框
+            {field:'user',title:'用户名',width:350,align:'center',halign:'center',resizable:true},
+            {field:'pswd',title:'密码',width:350,align:'center',halign:'center',resizable:true}
         ]],
         method: 'get',
         pagination: true,
         rownumbers: true,
-        singleSelect: true,
+        singleSelect: false,
+        checkOnSelect: true,
         fitColumns: true,
         selectOnCheck: true
     });
     var pager = $('#dg').datagrid('getPager');
     pager.pagination({
         showPageList:true,
-        pageSize: 10,
-        pageList: [10,20,50,100],
+        pageSize: 5,
+        pageList: [5,10,20,50,100],
         buttons:[{
             iconCls:'icon-search',
             handler:function(){
