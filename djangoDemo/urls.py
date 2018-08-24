@@ -20,5 +20,6 @@ from cmdb import views
 
 urlpatterns = [
     path(r'addUser/',views.addUser),
-    path(r'rt_json/',views.rt_json)
+    path(r'add/',views.add),
+    path(r'rt_json/',views.rt_json),
 ]
