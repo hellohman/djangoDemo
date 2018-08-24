@@ -2,9 +2,29 @@
 function submitForm(){
     $('#ff').form('submit', {
         url: '/add/',
+        onSubmit: function(){
+            var params = $("#ff").serialize();
+            var paramsArray = params.split("&");
+            var tempArray = [];
+            for(var i =0;i<paramsArray.length;i++){
+                var obj={};
+                obj.key = paramsArray[i].split("=")[0];
+                obj.value = paramsArray[i].split("=")[1];
+                tempArray.push(obj);
+            }
+            var username = tempArray[0].value;
+            var password = tempArray[1].value;
+            if (password.length < 8) {
+                // alert(password);
+                return true;
+            }
+            return false;
+        },
         success: function (result) {
             var result = eval('(' + result + ')');  // 转str
-            $('#dg').datagrid('loadData',{'total':2,'rows':result});
+            $('#dg').datagrid({
+                data: result
+            });
         }
     })
 }
@@ -18,8 +38,8 @@ function clearForm(){
 $(function(){
     $('#dg').datagrid({
         columns:[[
-            {field:'user',title:'用户名',width:350},
-            {field:'pswd',title:'密码',width:350}
+            {field:'user',title:'用户名',width:350,align:'center'},
+            {field:'pswd',title:'密码',width:350,align:'center'}
         ]],
         method: 'get',
         pagination: true,

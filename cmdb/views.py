@@ -1,7 +1,6 @@
 import json
-import traceback
 
-from django.core.paginator import Paginator
+from django.db.models import Q
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from cmdb import models
@@ -30,6 +29,10 @@ def add(request):
         if user not in [each.user for each in models.UserInfo.objects.all()]:
             if pswd:
                 models.UserInfo.objects.create(user=user, pswd=pswd)
+                aaa = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.filter(Q(user__icontains='5'),Q(pswd__icontains='5'))]
+                bbb = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.filter(user__icontains='5')]
+                print(aaa)
+                print(bbb)
                 data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
                 return HttpResponse(json.dumps(data), content_type="application/json")
             else:
