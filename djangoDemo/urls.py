@@ -21,7 +21,7 @@ from cmdb import views
 urlpatterns = [
     path(r'register/', views.register),         # 注册页面
     path(r'addUser/', views.addUser),           # 添加用户
-    path(r'rt_json/', views.rt_json),           # 返回json
     path(r'updateUser/', views.updateUser),     # 修改用户
-    path(r'deleteUser/', views.deleteUser)      # 删除用户
+    path(r'deleteUser/', views.deleteUser),     # 删除用户
+    path(r'rt_json/', views.rt_json),           # 返回json
 ]

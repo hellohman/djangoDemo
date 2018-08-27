@@ -25,12 +25,6 @@ def addUser(request):
         return render(request, 'register.html', )
 
 
-# 返回json
-def rt_json(request):       # 返回json
-    data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
-    return HttpResponse(json.dumps(data), content_type="application/json")
-
-
 # 修改用户
 def updateUser(request):
     if request.method == 'POST':
@@ -47,3 +41,9 @@ def deleteUser(request):
             print('{} - 用户名:{} 删除成功!'.format(index,each['user']))
         rt_data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
         return HttpResponse(json.dumps(rt_data), content_type="application/json")
+
+
+# 返回json
+def rt_json(request):
+    data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
+    return HttpResponse(json.dumps(data), content_type="application/json")

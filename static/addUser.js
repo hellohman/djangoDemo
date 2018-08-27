@@ -1,4 +1,4 @@
-// 提交
+// 提交表单
 function submitForm(){
     $('#ff').form('submit', {
         url: '/addUser/',
