@@ -11,6 +11,11 @@
     <script type="text/javascript" src="/static/jquery-easyui-1.5.5.7/jquery.easyui.mobile.js"></script>
     <script type="text/javascript" src="/static/addUser.js"></script>
     <title>测试</title>
+    <style>
+        .visible{
+            display:block!important;
+        }
+    </style>
 </head>
 <body>
 <br/>
@@ -29,6 +34,8 @@
     </div>
 </div>
 <br/>
-<table id="dg" title="账户信息" style="width:732px"></table>
+<div id="div-dg" style="display: none">
+    <table id="dg" title="账户信息" style="width:732px"></table>
+</div>
 </body>
 </html>
