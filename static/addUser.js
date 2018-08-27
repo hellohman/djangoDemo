@@ -1,7 +1,7 @@
 // 提交
 function submitForm(){
     $('#ff').form('submit', {
-        url: '/add/',
+        url: '/addUser/',
         onSubmit: function(){
             var params = $("#ff").serialize();
             var paramsArray = params.split("&");
@@ -24,8 +24,8 @@ function submitForm(){
                 clearForm();
                 alert('用户名已存在,请重新输入!');
             } else {
-                $("#div-dg").addClass('visible');       // 隐藏
-                var result = eval('(' + result + ')');   // 转json
+                $("#div-dg").addClass('visible');       // 显示
+                var result = JSON.parse(result);          // 转json
                 $('#dg').datagrid({
                     data: result
                 });
@@ -43,16 +43,34 @@ function submitForm(){
     })
 }
 
-// 清空
+// 清空表单
 function clearForm(){
     $('#ff').form('clear');
 }
 
 // 添加用户
-function addCustomer() {
-    // alert("xxx");
-    $.post('/add/',{'user':'xxxxx','pswd':'xxx'},function (result) {
+function addUser() {
+    $.post('/addUser/',{'user':'xxxxx','pswd':'xxx'},function (result) {
         alert(result);
+    })
+}
+
+// 修改用户
+function updateUser() {
+    var selRows = $('#dg').datagrid('getChecked');
+    $.post('/updateUser/',{data:JSON.stringify(selRows)},function (result) {
+        alert(result);
+    })
+}
+
+// 删除用户
+function deleteUser() {
+    var selRows = $('#dg').datagrid('getChecked');
+    $.post('/deleteUser/',{data:JSON.stringify(selRows)},function (result) {
+        $('#dg').datagrid({
+            data: result
+        });
+        alert('共删除' + selRows.length + '条数据');
     })
 }
 
@@ -65,22 +83,22 @@ $(function(){
             {field:'pswd',title:'密码',width:350,align:'center',halign:'center',resizable:true}
         ]],
         toolbar: [{
-            text:'添加用户',
+            text:'添加',
             iconCls: 'icon-add',
             handler: function(){
-                addCustomer();
+                addUser();
             }
         },'-',{
-            text:'修改用户',
+            text:'修改',
             iconCls: 'icon-edit',
             handler: function(){
-                updateCustomer();
+                updateUser();
             }
         },'-',{
-            text:'删除用户',
+            text:'删除',
             iconCls: 'icon-remove',
             handler: function(){
-                delCustomer();
+                deleteUser();
             }
         }],
         method: 'get',
