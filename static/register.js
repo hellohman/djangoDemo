@@ -19,60 +19,40 @@ function clearForm(id){
 
 // datagrid
 function dl_datagrid(data) {
-    $("#div-dg").addClass('visible');       // 显示
-    var data = JSON.parse(data);          // 转json
-    $('#dg').datagrid({
-        data: data
-    });
-    var pager = $('#dg').datagrid('getPager');
-    pager.pagination({
-        showPageList:true,
-        pageSize: 5,
-        pageList: [5,10,20,50,100],
-        beforePageText: '第',
-        afterPageText:'页.共 {pages} 页',
-        displayMsg:'显示 {from}-{to} 条. 共 {total} 条',
-        buttons:[{
-            iconCls:'icon-search',
-            handler:function(){
-                alert('search');
-            }
-        },{
-            iconCls:'icon-add',
-            handler:function(){
-                alert('add');
-            }
-        },{
-            iconCls:'icon-edit',
-            handler:function(){
-                alert('edit');
-            }
-        }],
-    })
-}
-
-// 提交表单
-function submitForm(){
-    $('#ff').form('submit', {
-        url: '/addUser/',
-        onSubmit: function(){
-            var tempArray = dl_form("#ff");
-            var username = tempArray[0].value;
-            var password = tempArray[1].value;
-            if (password.length < 8) {
-                return true;
-            }
-            return false;
-        },
-        success: function (result) {
-            if (result == '用户名已存在') {
-                clearForm();
-                $.messager.alert('提示','用户名已存在，请重新输入！','warning');
-            } else {
-                dl_datagrid(result);
-            }
-        }
-    })
+    var data = JSON.parse(data);              // 转json
+    if (data.length == 0) {
+        $.messager.alert('提示','未匹配到数据！','info');
+    } else {
+        // $("#div-dg").addClass('visible');       // 显示
+        $('#dg').datagrid({
+            data: data
+        });
+        var pager = $('#dg').datagrid('getPager');
+        pager.pagination({
+            showPageList:true,
+            pageSize: 10,
+            pageList: [10,20,30,50],
+            beforePageText: '第',
+            afterPageText:'页.共 {pages} 页',
+            displayMsg:'显示 {from}-{to} 条. 共 {total} 条',
+            buttons:[{
+                iconCls:'icon-search',
+                handler:function(){
+                    alert('search');
+                }
+            },{
+                iconCls:'icon-add',
+                handler:function(){
+                    alert('add');
+                }
+            },{
+                iconCls:'icon-edit',
+                handler:function(){
+                    alert('edit');
+                }
+            }],
+        })
+    }
 }
 
 // 精确查询
@@ -175,7 +155,7 @@ $(function(){
                 updateUser();
             }
         },'-',{
-            text:'删除',
+            text:'批量删除',
             iconCls: 'icon-remove',
             handler: function(){
                 deleteUserList();
@@ -187,6 +167,35 @@ $(function(){
         singleSelect: false,
         checkOnSelect: true,
         fitColumns: true,
-        selectOnCheck: true
+        selectOnCheck: true,
+        onSelectPage:function(pageNumber, pageSize){
+            $(this).pagination('loading');
+            alert('pageNumber:'+pageNumber+',pageSize:'+pageSize);
+            $(this).pagination('loaded');
+        }
     });
 });
+
+// 提交表单
+// function submitForm(){
+//     $('#ff').form('submit', {
+//         url: '/addUser/',
+//         onSubmit: function(){
+//             var tempArray = dl_form("#ff");
+//             var username = tempArray[0].value;
+//             var password = tempArray[1].value;
+//             if (password.length < 8) {
+//                 return true;
+//             }
+//             return false;
+//         },
+//         success: function (result) {
+//             if (result == '用户名已存在') {
+//                 clearForm();
+//                 $.messager.alert('提示','用户名已存在，请重新输入！','warning');
+//             } else {
+//                 dl_datagrid(result);
+//             }
+//         }
+//     })
+// }

@@ -55,3 +55,8 @@ Mysql:
 
     字段:
         https://www.cnblogs.com/zh605929205/articles/7103825.html
+
+1.登录注册页面
+2.主页
+3.用户管理
+4.功能页面

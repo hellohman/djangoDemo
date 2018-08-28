@@ -25,7 +25,8 @@ def login(request):
 
 # 注册页面
 def register(request):
-    return render(request, 'register.html', )
+    data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all().order_by('user')]
+    return render(request, 'register.html', {'data': data})
 
 
 # 添加用户
@@ -60,6 +61,8 @@ def deleteUser(request):
 def exactSearch(request):
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
+    pageNumber = request.POST.get('pageNumber', None)
+    pageSize = request.POST.get('pageSize', None)
     if user and pswd:
         data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd))
     elif user:
