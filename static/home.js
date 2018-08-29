@@ -85,7 +85,7 @@ $(function(){
             {field:'pswd',title:'密码',width:250,align:'center',halign:'center',resizable:true},
             {field:'action',title:'操作',width:200,align:'center',
                 formatter:function(value,row,index){
-                    var edit = '<a href="#" onclick="editrow(this)">修改</a> ';
+                    var edit = '<a href="#" onclick="editrow(value,row,index)">修改</a> ';
                     var del = '<a href="#" onclick="alert(index)">删除</a>';
                     return edit + del;
                 }
@@ -136,6 +136,11 @@ $(function(){
     });
     fuzzySearch(1,10);
 });
+
+// 修改
+function editrow(data) {
+    alert(data)
+}
 
 // 清空表单
 function clearForm(id){
