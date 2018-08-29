@@ -1,74 +1,30 @@
-// form
-function dl_form(id) {
-    var params = $(id).serialize();
-    var paramsArray = params.split("&");
-    var tempArray = [];
-    for(var i =0;i<paramsArray.length;i++){
-        var obj={};
-        obj.key = paramsArray[i].split("=")[0];
-        obj.value = paramsArray[i].split("=")[1];
-        tempArray.push(obj);
-    }
-    return tempArray;
-}
-
-// 清空表单
-function clearForm(id){
-    $(id).form('clear');
-}
-
-// datagrid
+// data
 function dl_datagrid(data) {
     var data = JSON.parse(data);              // 转json
     if (data.length == 0) {
         $.messager.alert('提示','未匹配到数据！','info');
     } else {
         // $("#div-dg").addClass('visible');       // 显示
-        $('#dg').datagrid({
-            data: data
-        });
-        var pager = $('#dg').datagrid('getPager');
-        pager.pagination({
-            showPageList:true,
-            pageSize: 10,
-            pageList: [10,20,30,50],
-            beforePageText: '第',
-            afterPageText:'页.共 {pages} 页',
-            displayMsg:'显示 {from}-{to} 条. 共 {total} 条',
-            buttons:[{
-                iconCls:'icon-search',
-                handler:function(){
-                    alert('search');
-                }
-            },{
-                iconCls:'icon-add',
-                handler:function(){
-                    alert('add');
-                }
-            },{
-                iconCls:'icon-edit',
-                handler:function(){
-                    alert('edit');
-                }
-            }],
-        })
+        $('#dg').datagrid('loadData',{total:data['total'],rows: data['rows']});
     }
 }
 
-// 精确查询
-function exactSearch() {
+// 模糊查询
+function fuzzySearch(pageNumber,pageSize) {
     $('#search').form('submit', {
-        url: '/exactSearch/',
-        onSubmit: function () {
-            var tempArray = dl_form("#search");
-            var username = tempArray[0].value;
-            var password = tempArray[1].value;
-            if (username != "" || password != "") {
-                return true;
-            } else {
-                $.messager.alert('提示','条件不能为空！','warning');
-                return false;
-            }
+        url: '/fuzzySearch/',
+        onSubmit: function (param) {
+            param.pageNumber = pageNumber;
+            param.pageSize = pageSize;
+            // var tempArray = dl_form("#search");
+            // var username = tempArray[0].value;
+            // var password = tempArray[1].value;
+            // if (username != "" || password != "") {
+            //     return true;
+            // } else {
+            //     $.messager.alert('提示','条件不能为空！','warning');
+            //     return false;
+            // }
         },
         success: function (result) {
             dl_datagrid(result);
@@ -76,21 +32,10 @@ function exactSearch() {
     });
 }
 
-// 模糊查询
-function fuzzySearch() {
+// 精确查询
+function exactSearch() {
     $('#search').form('submit', {
-        url: '/fuzzySearch/',
-        onSubmit: function () {
-            var tempArray = dl_form("#search");
-            var username = tempArray[0].value;
-            var password = tempArray[1].value;
-            if (username != "" || password != "") {
-                return true;
-            } else {
-                $.messager.alert('提示','条件不能为空！','warning');
-                return false;
-            }
-        },
+        url: '/exactSearch/',
         success: function (result) {
             dl_datagrid(result);
         }
@@ -115,16 +60,21 @@ function updateUser() {
 // 批量删除用户
 function deleteUserList() {
     var selRows = $('#dg').datagrid('getChecked');
-    $.messager.confirm('确认', '确认删除' + selRows.length + '条数据吗？', function(r){
-        if (r){
-            $.post('/deleteUser/',{data:JSON.stringify(selRows)},function (result) {
-                $('#dg').datagrid({
-                    data: result
-                });
-                $.messager.alert('提示','成功删除' + selRows.length + '条数据！','info');
-            })
-        }
-    });
+    if (selRows.length > 0) {
+        $.messager.confirm('确认', '确认删除' + selRows.length + '条数据吗？', function(r){
+            if (r){
+                $.post('/deleteUser/',{data:JSON.stringify(selRows)},function (result) {
+                    $('#dg').datagrid({
+                        data: result
+                    });
+                    $.messager.alert('提示','成功删除' + selRows.length + '条数据！','info');
+                })
+            }
+        });
+    } else {
+        $.messager.alert('提示','请勾选数据！','warning');
+    }
+
 }
 
 // 数据网格
@@ -161,20 +111,68 @@ $(function(){
                 deleteUserList();
             }
         }],
-        method: 'get',
+        fit: false,
+        method: 'post',
+        loadMsg: '数据加载中...',
         pagination: true,
+        pageSize: 10,
+        pageList: [10,20,30,50],
         rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
         fitColumns: true,
         selectOnCheck: true,
+        striped: true,
+        nowrap: true
+    });
+    $('#dg').datagrid('getPager').pagination({
+        showRefresh: false,
+        showPageList: true,
+        beforePageText:  '第',
+        afterPageText: '页.共{pages}页',
+        displayMsg: '显示第{from}-{to}条. 共{total}条',
+        buttons: [{
+            iconCls:'icon-search',
+            handler:function(){
+                alert('search');
+            }
+        },{
+            iconCls:'icon-add',
+            handler:function(){
+                alert('add');
+            }
+        },{
+            iconCls:'icon-edit',
+            handler:function(){
+                alert('edit');
+            }
+        }],
         onSelectPage:function(pageNumber, pageSize){
-            $(this).pagination('loading');
-            alert('pageNumber:'+pageNumber+',pageSize:'+pageSize);
-            $(this).pagination('loaded');
+            fuzzySearch(pageNumber,pageSize)
         }
     });
+    fuzzySearch(1,10);
 });
+
+// form
+function dl_form(id) {
+    var params = $(id).serialize();
+    var paramsArray = params.split("&");
+    var tempArray = [];
+    for(var i =0;i<paramsArray.length;i++){
+        var obj={};
+        obj.key = paramsArray[i].split("=")[0];
+        obj.value = paramsArray[i].split("=")[1];
+        tempArray.push(obj);
+    }
+    return tempArray;
+}
+
+// 清空表单
+function clearForm(id){
+    $(id).form('clear');
+    exactSearch();
+}
 
 // 提交表单
 // function submitForm(){

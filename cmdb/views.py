@@ -61,14 +61,14 @@ def deleteUser(request):
 def exactSearch(request):
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
-    pageNumber = request.POST.get('pageNumber', None)
-    pageSize = request.POST.get('pageSize', None)
     if user and pswd:
-        data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd))
+        data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd)).order_by('user')
     elif user:
-        data = models.UserInfo.objects.filter(Q(user=user))
+        data = models.UserInfo.objects.filter(Q(user=user)).order_by('user')
+    elif pswd:
+        data = models.UserInfo.objects.filter(Q(pswd=pswd)).order_by('user')
     else:
-        data = models.UserInfo.objects.filter(Q(pswd=pswd))
+        data = models.UserInfo.objects.all().order_by('user')
     rt_data = [{'user': each.user, 'pswd': each.pswd} for each in data]
     return HttpResponse(json.dumps(rt_data), content_type="application/json")
 
@@ -77,14 +77,22 @@ def exactSearch(request):
 def fuzzySearch(request):
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
+    pageNumber = int(request.POST.get('pageNumber', None))
+    pageSize = int(request.POST.get('pageSize', None))
     if user and pswd:
-        data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd))
+        data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd)).order_by('user')
     elif user:
-        data = models.UserInfo.objects.filter(Q(user__icontains=user))
+        data = models.UserInfo.objects.filter(Q(user__icontains=user)).order_by('user')
+    elif pswd:
+        data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd)).order_by('user')
     else:
-        data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd))
-    rt_data = [{'user': each.user, 'pswd': each.pswd} for each in data]
-    return HttpResponse(json.dumps(rt_data), content_type="application/json")
+        data = models.UserInfo.objects.all().order_by('user')
+    data = [{'user': each.user, 'pswd': each.pswd} for each in data]
+    rt_dic = {
+        'total': len(data),
+        'rows': data[(pageNumber-1)*pageSize:pageNumber*pageSize]
+    }
+    return HttpResponse(json.dumps(rt_dic), content_type="application/json")
 
 
 # 返回json

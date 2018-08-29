@@ -30,20 +30,20 @@
     </form>
     <div style="text-align:right">
         <a href="javascript:void(0)" class="easyui-linkbutton" onclick="exactSearch()" style="width:70px">精确查找</a>
-        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="fuzzySearch()" style="width:70px">模糊查找</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="fuzzySearch(1,10)" style="width:70px">模糊查找</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm('#search')" style="width:45px">清空</a>
     </div>
 </div>
 <br/>
 {#<div id="div-dg" style="display: none">#}
-<div id="div-dg">
-    <table id="dg" title="用户信息" style="width:732px"></table>
+<div id="div-dg" >
+    <table id="dg" title="用户信息" style="width:732px;height:453px;"></table>
 </div>
-<script>
-    $('#dg').datagrid({
-        data: {{ data|safe }}
-    });
-</script>
+{#<script>#}
+{#    $('#dg').datagrid({#}
+{#        data: {{ data|safe }}#}
+{#    });#}
+{#</script>#}
 {#<div class="easyui-panel" title="用户注册" style="width:100%;max-width:300px;padding:10px 10px;">#}
 {#    <form id="ff" method="post">#}
 {#        <div style="margin-bottom:10px">#}
