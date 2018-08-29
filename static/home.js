@@ -5,7 +5,7 @@ function dl_datagrid(data) {
         $.messager.alert('提示','未查询到数据！','info');
     } else {
         // $("#div-dg").addClass('visible');       // 显示
-        $('#dg').datagrid('loadData',{total:data['total'],rows: data['rows']});
+        $('#dg').datagrid('loadData',data);
     }
 }
 
