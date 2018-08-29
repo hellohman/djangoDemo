@@ -1,3 +1,22 @@
+// 登录
+function login() {
+    $('#login').form('submit', {
+        url: '/login/',
+        success: function (result) {
+            if (result == '用户名错误！' || result == '密码错误！') {
+                $.messager.alert('提示',result,'info');
+            } else if (result == '登陆成功！') {
+                window.location.href="/home/";
+            }
+        }
+    })
+}
+
+// 注册
+function register() {
+
+}
+
 // form
 function dl_form(id) {
     var params = $(id).serialize();
@@ -15,27 +34,4 @@ function dl_form(id) {
 // 清空表单
 function clearForm(id){
     $(id).form('clear');
-}
-
-// 登录
-function login() {
-    $('#login').form('submit', {
-        url: '/login/',
-        onSubmit: function(){
-            var tempArray = dl_form("#login");
-            var username = tempArray[0].value;
-            var password = tempArray[1].value;
-            if (password.length < 8) {
-                return true;
-            }
-            return false;
-        },
-        success: function (result) {
-            if (result == '用户名错误' || result == '密码错误') {
-                $.messager.alert('提示',result,'info');
-            } else {
-                window.location.href="/register/";
-            }
-        }
-    })
 }
