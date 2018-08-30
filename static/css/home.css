@@ -1,0 +1,32 @@
+.visible{
+    display:block!important;
+}
+.queryForm{
+    zoom:1
+}
+.queryForm:after{
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+    content: '';
+}
+.queryForm>p{
+    margin-left: 10px;
+    float: left;
+}
+#left{
+    margin-right: 15px;
+    float: left;
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+}
+#left a{
+    font-size: 15px;
+}
+#dg {
+    max-height: 600px;
+    /*height: 650px;*/
+    width: 600px;
+}

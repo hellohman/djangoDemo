@@ -72,7 +72,7 @@ function deleteUserList() {
             }
         });
     } else {
-        $.messager.alert('提示','请勾选数据！','warning');
+        $.messager.alert('提示','请至少选择一条数据！','warning');
     }
 }
 
@@ -91,25 +91,20 @@ $(function(){
                 }
             }
         ]],
-        toolbar: [{
-            text:'添加',
-            iconCls: 'icon-add',
-            handler: function(){
-                addUser();
-            }
-        },'-',{
-            text:'修改',
-            iconCls: 'icon-edit',
-            handler: function(){
-                updateUser();
-            }
-        },'-',{
-            text:'批量删除',
-            iconCls: 'icon-remove',
-            handler: function(){
-                deleteUserList();
-            }
-        }],
+        toolbar: '#tb',
+        // toolbar: [{
+        //     text:'添加',
+        //     iconCls: 'icon-add',
+        //     handler: function(){
+        //         addUser();
+        //     }
+        // },'-',{
+        //     text:'批量删除',
+        //     iconCls: 'icon-remove',
+        //     handler: function(){
+        //         deleteUserList();
+        //     }
+        // }],
         fit: false,
         method: 'post',
         loadMsg: '数据加载中...',
