@@ -16,15 +16,6 @@ function fuzzySearch(pageNumber,pageSize) {
         onSubmit: function (param) {
             param.pageNumber = pageNumber;
             param.pageSize = pageSize;
-            // var tempArray = dl_form("#search");
-            // var username = tempArray[0].value;
-            // var password = tempArray[1].value;
-            // if (username != "" || password != "") {
-            //     return true;
-            // } else {
-            //     $.messager.alert('提示','条件不能为空！','warning');
-            //     return false;
-            // }
         },
         success: function (result) {
             dl_datagrid(result);
@@ -142,41 +133,3 @@ function clearForm(id){
     $(id).form('clear');
     fuzzySearch(1,10);
 }
-
-// form
-// function dl_form(id) {
-//     var params = $(id).serialize();
-//     var paramsArray = params.split("&");
-//     var tempArray = [];
-//     for(var i =0;i<paramsArray.length;i++){
-//         var obj={};
-//         obj.key = paramsArray[i].split("=")[0];
-//         obj.value = paramsArray[i].split("=")[1];
-//         tempArray.push(obj);
-//     }
-//     return tempArray;
-// }
-
-// 提交表单
-// function submitForm(){
-//     $('#ff').form('submit', {
-//         url: '/addUser/',
-//         onSubmit: function(){
-//             var tempArray = dl_form("#ff");
-//             var username = tempArray[0].value;
-//             var password = tempArray[1].value;
-//             if (password.length < 8) {
-//                 return true;
-//             }
-//             return false;
-//         },
-//         success: function (result) {
-//             if (result == '用户名已存在') {
-//                 clearForm();
-//                 $.messager.alert('提示','用户名已存在，请重新输入！','warning');
-//             } else {
-//                 dl_datagrid(result);
-//             }
-//         }
-//     })
-// }

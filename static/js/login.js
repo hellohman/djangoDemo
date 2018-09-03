@@ -1,4 +1,4 @@
-// 登录
+// 登录,提交表单
 function login() {
     $('#login').form('submit', {
         url: '/login/',
