@@ -8,7 +8,8 @@ class UserInfo(models.Model):
     pswd = models.CharField(max_length=32)
 
 
-class Salesman(models.Model):
-    name = models.CharField(max_length=10)
-    age = models.PositiveSmallIntegerField()
-    createData = models.IntegerField()
+# class Salesman(models.Model):
+#     name = models.CharField(max_length=10)
+#     age = models.PositiveSmallIntegerField()
+#     createData = models.IntegerField()
+#     date_publish = models.DateTimeField(auto_now=True)

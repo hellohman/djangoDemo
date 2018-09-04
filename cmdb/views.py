@@ -1,7 +1,7 @@
 import json
 
 from django.db.models import Q
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from cmdb import models
 
@@ -91,11 +91,14 @@ def updateUser(request):
 # 删除用户
 def deleteUser(request):
     data = json.loads(request.POST['data'])
+    pageNumber = int(request.POST.get('pageNumber', None))
+    pageSize = int(request.POST.get('pageSize', None))
     for index, each in enumerate(data, 1):
         models.UserInfo.objects.filter(user=each['user']).delete()
         print('{} - 用户名:{} 删除成功!'.format(index, each['user']))
-    rt_data = [{'user': each.user, 'pswd': each.pswd} for each in models.UserInfo.objects.all()]
-    return HttpResponse(json.dumps(rt_data), content_type="application/json")
+    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
+    rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
+    return HttpResponse(json.dumps(rt_dic), content_type="application/json")
 
 
 # 返回json

@@ -14,9 +14,8 @@
     <title>测试</title>
 </head>
 <body class="easyui-layout" style="margin-top:10px;margin-bottom: 10px;">
-{#    <div data-options="region:'north',border:false" ></div>#}
     <div data-options="region:'west',split:true,title:'导航栏'" style="width:200px;padding:0px;">
-        <ul>
+        <ul id="left_ul">
             <li>
                 <a href="/login/" title="test">测试</a>
             </li>
@@ -45,21 +44,19 @@
         <div id="tb">
             <form id="search" method="post">
                 <div style="margin-bottom:10px">
-                    <div class="queryForm">
-                        <p>用户名: <input type="text" name="user" required="required" /></p>
-                        <p>密 码 : <input type="text" name="pswd" required="required" /></p>
-                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="exactSearch()" style="width:70px;margin:10px;">精确查询</a>
-                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="fuzzySearch(1,10)" style="width:70px;margin:10px 10px 10px 0px;">模糊查询</a>
-                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm('#search')" style="width:45px;margin:10px 10px 10px 0px;">清空</a>
+                    <div class="queryForm" style="margin-left: 10px">
+                        <p style="margin-left: 0px;">用户名: <input type="text" name="user" required="required" /></p>
+                        <p>密 码 : <input type="text" name="pswd" required="required" style="margin-right: 10px"/></p>
+                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="exactSearch(1,10)" style="width:70px;margin:10px 0px;">精确查询</a>
+                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="fuzzySearch(1,10)" style="width:70px;">模糊查询</a>
+                        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm('#search')" style="width:70px;">清空条件</a>
+                        <br/>
+                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="addUser()" style="width:70px;">新增</a>
+                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="deleteUserList()" style="width:90px;">批量删除</a>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-{#<div>#}
-{#    <div id="div-dg" >#}
-{#        <table id="dg" title="用户信息" style="width:1000px;height:650px;"></table>#}
-{#    </div>#}
-{#</div>#}
 </body>
 </html>
