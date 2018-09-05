@@ -1,5 +1,3 @@
-//修改
-
 var dgPageNumber = 1;   //初始默认值
 var dgPageSize = 10;    //初始默认值
 
@@ -102,9 +100,11 @@ function deleteUserList() {
 }
 
 // 导出数据
-function exportData() {
+function exportExcel() {
     $.post('/exportData/',function (result) {
-        alert(result);
+        var title = ["用户名","密码"];
+        var field = ["user","pswd"]
+        JSONToExcel(result, "用户信息", title, field);
     })
 }
 
@@ -236,3 +236,65 @@ $(function(){
     });
     fuzzySearch(1,10);
 });
+
+
+function JSONToExcel(JSONData, FileName, Title, Field) {
+    var arrData = typeof JSONData !== 'object' ? JSON.parse(JSONData) : JSONData;
+    var excel = "<table>";
+    var rows = "<tr>";
+
+    // 表头
+    for (var i in Title) {
+        rows += "<td>" + Title[i] + "</td>";
+    }
+    excel += rows + "</tr>";
+
+    // 数据
+    for (i = 0; i < arrData.length; i++) {
+        rows = "<tr>";
+        for (var j in Field) {
+            rows += "<td>" + arrData[i][Field[j]] + "</td>";
+        }
+        excel += rows + "</tr>";
+    }
+    excel += "</table>";
+
+    var excelFile = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>";
+    excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8">';
+    excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel';
+    excelFile += '; charset=UTF-8">';
+    excelFile += "<head>";
+    excelFile += "<!--[if gte mso 9]>";
+    excelFile += "<xml>";
+    excelFile += "<x:ExcelWorkbook>";
+    excelFile += "<x:ExcelWorksheets>";
+    excelFile += "<x:ExcelWorksheet>";
+    excelFile += "<x:Name>";
+    excelFile += "Sheet1";
+    excelFile += "</x:Name>";
+    excelFile += "<x:WorksheetOptions>";
+    excelFile += "<x:DisplayGridlines/>";
+    excelFile += "</x:WorksheetOptions>";
+    excelFile += "</x:ExcelWorksheet>";
+    excelFile += "</x:ExcelWorksheets>";
+    excelFile += "</x:ExcelWorkbook>";
+    excelFile += "</xml>";
+    excelFile += "<![endif]-->";
+    excelFile += "</head>";
+    excelFile += "<body>";
+    excelFile += excel;
+    excelFile += "</body>";
+    excelFile += "</html>";
+
+    var uri = 'data:application/vnd.ms-excel;charset=utf-8,' + encodeURIComponent(excelFile);
+
+    var link = document.createElement("a");
+    link.href = uri;
+
+    link.style = "visibility:hidden";
+    link.download = FileName + ".xls";
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
