@@ -22,10 +22,10 @@ urlpatterns = [
     path(r'login/', views.login),                       # 登录页面
     path(r'home/', views.home),                         # 主页
     path(r'register/', views.register),                # 注册页面
-    path(r'fuzzySearch/', views.fuzzySearch),          # 模糊查询
     path(r'exactSearch/', views.exactSearch),          # 精确查询
-    path(r'addUser/', views.addUser),                  # 添加用户
-    path(r'updateUser/', views.updateUser),            # 修改用户
-    path(r'deleteUser/', views.deleteUser),            # 删除用户
-    path(r'exportData/', views.exportData),                  # 返回json
+    path(r'fuzzySearch/', views.fuzzySearch),          # 模糊查询
+    path(r'addUser/', views.addUser),                  # 新增数据
+    path(r'updateUser/', views.updateUser),            # 修改数据
+    path(r'deleteUser/', views.deleteUser),            # 删除数据
+    path(r'exportExcel/', views.exportExcel),          # 导出数据
 ]

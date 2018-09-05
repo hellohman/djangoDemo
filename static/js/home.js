@@ -101,7 +101,7 @@ function deleteUserList() {
 
 // 导出数据
 function exportExcel() {
-    $.post('/exportData/',function (result) {
+    $.post('/exportExcel/',function (result) {
         var title = ["用户名","密码"];
         var field = ["user","pswd"]
         JSONToExcel(result, "用户信息", title, field);
