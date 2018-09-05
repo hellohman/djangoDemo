@@ -74,10 +74,13 @@ def fuzzySearch(request):
 def addUser(request):
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
+    pageNumber = int(request.POST.get('pageNumber', None))
+    pageSize = int(request.POST.get('pageSize', None))
     if user not in [each.user for each in models.UserInfo.objects.all()]:
         models.UserInfo.objects.create(user=user, pswd=pswd)
         data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
-        return HttpResponse(json.dumps(data), content_type="application/json")
+        rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
+        return HttpResponse(json.dumps(rt_dic), content_type="application/json")
     return HttpResponse("用户名已存在")
 
 
@@ -102,6 +105,6 @@ def deleteUser(request):
 
 
 # 返回json
-def rt_json(request):
+def exportData(request):
     data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
     return HttpResponse(json.dumps(data), content_type="application/json")

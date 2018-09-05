@@ -27,5 +27,5 @@ urlpatterns = [
     path(r'addUser/', views.addUser),                  # 添加用户
     path(r'updateUser/', views.updateUser),            # 修改用户
     path(r'deleteUser/', views.deleteUser),            # 删除用户
-    path(r'rt_json/', views.rt_json),                  # 返回json
+    path(r'exportData/', views.exportData),                  # 返回json
 ]
