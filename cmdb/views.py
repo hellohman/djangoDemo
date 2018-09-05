@@ -106,5 +106,5 @@ def deleteUser(request):
 
 # 返回json
 def exportExcel(request):
-    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
+    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
     return HttpResponse(json.dumps(data), content_type="application/json")

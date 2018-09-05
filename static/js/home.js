@@ -27,7 +27,7 @@ function fuzzySearch(pageNumber,pageSize) {
     });
 }
 
-// 清空条件
+// 重置条件
 function clearForm(id){
     $(id).form('clear');
     fuzzySearch(1,dgPageSize);
@@ -102,8 +102,8 @@ function deleteUserList() {
 // 导出数据
 function exportExcel() {
     $.post('/exportExcel/',function (result) {
-        var title = ["用户名","密码"];
-        var field = ["user","pswd"]
+        var title = ["id","用户名","密码"];
+        var field = ["id","user","pswd"]
         JSONToExcel(result, "用户信息", title, field);
     })
 }
