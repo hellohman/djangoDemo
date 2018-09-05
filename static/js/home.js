@@ -20,6 +20,18 @@ function dl_datagrid(input) {
     }
 }
 
+// 精确查询
+function exactSearch() {
+    $('#search').form('submit', {
+        url: '/exactSearch/',
+        success: function (result) {
+            dgPageNumber = 1;
+            dgPageSize = 10;
+            dl_datagrid(result);
+        }
+    });
+}
+
 // 模糊查询
 function fuzzySearch(pageNumber,pageSize) {
     $('#search').form('submit', {
@@ -36,46 +48,36 @@ function fuzzySearch(pageNumber,pageSize) {
     });
 }
 
-// 精确查询
-function exactSearch() {
-    $('#search').form('submit', {
-        url: '/exactSearch/',
-        success: function (result) {
-            dgPageNumber = 1;
-            dgPageSize = 10;
-            dl_datagrid(result);
-        }
-    });
+// 清空表单
+function clearForm(id){
+    $(id).form('clear');
+    fuzzySearch(1,10);
 }
 
-// 添加用户
+// 新增,插入行
 function addUser() {
-    $('#dg').datagrid('insertRow',{
-        index: 0,	// index start with 0
-        row: {
-            user: 'new',
-            pswd: 'messages'
+    // $('#dg').datagrid('insertRow',{
+    //     index: 0,	// index start with 0
+    //     row: {
+    //         user: 'new',
+    //         pswd: 'messages'
+    //     }
+    // });
+    var index = 0;
+    $('#dg').datagrid('insertRow', {
+        index: index,
+        row:{
+            status:'P'
         }
     });
+    $('#dg').datagrid('selectRow',index);
+    $('#dg').datagrid('beginEdit',index);
     // $.post('/addUser/',{'user':'xxxxx','pswd':'xxx'},function (result) {
     //     alert(result);
     // })
 }
 
-
-function editrow(target){
-    $('#tt').datagrid('beginEdit', getRowIndex(target));
-}
-
-// 修改用户
-function updateUser(target) {
-    var selRows = $('#dg').datagrid('getChecked');
-    $.post('/updateUser/',{data:JSON.stringify(selRows)},function (result) {
-        alert(result);
-    })
-}
-
-// 批量删除用户
+// 批量删除
 function deleteUserList() {
     var selRows = $('#dg').datagrid('getChecked');
     if (selRows.length > 0) {
@@ -101,55 +103,13 @@ function deleteUserList() {
 $(function(){
     document.getElementById("left_ul").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
     $('#dg').datagrid({
-        columns:[[
-            {field:'ck',title:'选择',checkbox:true},     // 复选框
-            {field:'user',title:'用户名',width:250,align:'center',halign:'center',resizable:true},
-            {field:'pswd',title:'密码',width:250,align:'center',halign:'center',resizable:true},
-            {field:'action',title:'操作',width:200,align:'center',
-                formatter:function(value,row,index){
-                    if (row.editing){
-                        var s = '<a href="#" onclick="saverow(this)">Save</a> ';
-                        var c = '<a href="#" onclick="cancelrow(this)">Cancel</a>';
-                        return s+c;
-                    } else {
-                        var e = '<a href="#" onclick="editrow(this)">Edit</a> ';
-                        var d = '<a href="#" onclick="deleterow(this)">Delete</a>';
-                        return e+d;
-                    }
-                }
-            }
-        ]],
-        onBeforeEdit:function(index,row){
-            row.editing = true;
-            // updateActions(index);
-        },
-        onAfterEdit:function(index,row){
-            row.editing = false;
-            // updateActions(index);
-        },
-        onCancelEdit:function(index,row){
-            row.editing = false;
-            // updateActions(index);
-        },
-        toolbar: '#tb',
-        // toolbar: [{
-        //     text:'添加',
-        //     iconCls: 'icon-add',
-        //     handler: function(){
-        //         addUser();
-        //     }
-        // },'-',{
-        //     text:'批量删除',
-        //     iconCls: 'icon-remove',
-        //     handler: function(){
-        //         deleteUserList();
-        //     }
-        // }],
         fit: false,
         method: 'post',
         loadMsg: '数据加载中...',
         pagination: true,
         pageSize: 10,
+        width:1000,
+        height:600,
         pageList: [10,20,30,50],
         rownumbers: true,
         singleSelect: false,
@@ -157,7 +117,45 @@ $(function(){
         fitColumns: true,
         selectOnCheck: true,
         striped: true,
-        nowrap: true
+        nowrap: true,
+        columns:[[
+            {field:'ck',checkbox:true},
+            {field:'user',title:'用户名',width:150,align:'center',editor:'text',resizable:true},
+            {field:'pswd',title:'密码',width:150,align:'center',editor:'text',resizable:true},
+            {field:'status',title:'Status',width:50,align:'center',
+                editor:{
+                    type:'checkbox',
+                    options:{
+                        on: 'P',
+                        off: ''
+                    }
+                }
+            },
+            {field:'action',title:'操作',width:80,align:'center',
+                formatter:function(value,row,index){
+                    if (row.editing){
+                        var s = '<a href="#" onclick="saveRow(this)">保存</a> ';
+                        var c = '<a href="#" onclick="cancelRow(this)">取消</a>';
+                        return s + c;
+                    } else {
+                        return '<a href="#" onclick="editRow(this)">编辑</a> ';
+                    }
+                }
+            }
+        ]],
+        onBeforeEdit:function(index,row){
+            row.editing = true;
+            updateActions(index);
+        },
+        onAfterEdit:function(index,row){
+            row.editing = false;
+            updateActions(index);
+        },
+        onCancelEdit:function(index,row){
+            row.editing = false;
+            updateActions(index);
+        },
+        toolbar: '#tb'
     });
     $('#dg').datagrid('getPager').pagination({
         showRefresh: false,
@@ -172,13 +170,31 @@ $(function(){
     fuzzySearch(1,10);
 });
 
-// 修改
-function editrow(data) {
-    alert(data)
+// 更新行状态
+function updateActions(index){
+    $('#dg').datagrid('updateRow',{
+        index: index,
+        row:{}
+    });
 }
 
-// 清空表单
-function clearForm(id){
-    $(id).form('clear');
-    fuzzySearch(1,10);
+// 获取行号
+function getRowIndex(target){
+    var tr = $(target).closest('tr.datagrid-row');
+    return parseInt(tr.attr('datagrid-row-index'));
+}
+
+// 修改行
+function editRow(target){
+    $('#dg').datagrid('beginEdit', getRowIndex(target));
+}
+
+// 保存行
+function saveRow(target){
+    $('#dg').datagrid('endEdit', getRowIndex(target));
+}
+
+// 取消行编辑
+function cancelRow(target){
+    $('#tt').datagrid('cancelEdit', getRowIndex(target));
 }
