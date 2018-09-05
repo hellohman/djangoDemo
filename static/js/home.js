@@ -168,7 +168,7 @@ function dl_datagrid(input) {
 
 // 数据网格
 $(function(){
-    document.getElementById("left_ul").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
+    document.getElementById("left_1").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
     $('#dg').datagrid({
         fit: false,
         method: 'post',
