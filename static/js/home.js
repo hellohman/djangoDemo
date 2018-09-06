@@ -118,7 +118,7 @@ function exportExcel() {
 function updateActions(index,row){
     $('#dg').datagrid('updateRow',{
         index: index,
-        row:row
+        row:{ck:false}
     });
 }
 
@@ -204,11 +204,7 @@ $(function(){
         ]],
         onBeforeEdit:function(index,row){
             row.editing = true;
-            $('#dg').datagrid('updateRow',{
-                index: index,
-                row:row
-            });
-            // updateActions(index,row);
+            updateActions(index,row);
         },
         onAfterEdit:function(index,row){
             row.editing = false;
@@ -216,11 +212,7 @@ $(function(){
             row.pageSize = dgPageSize;
             $.post('/editRow/',row,function (result) {
                 $.messager.alert('提示','数据修改成功！','info');
-                $('#dg').datagrid('updateRow',{
-                    index: index,
-                    row:row
-                });
-                // updateActions(index,row);
+                updateActions(index,row);
                 dl_datagrid(result);
             });
         },
@@ -228,11 +220,7 @@ $(function(){
             row.editing = false;
             row.xxx = false;
             alert('onCancelEdit');
-            $('#dg').datagrid('updateRow',{
-                index: index,
-                row:row
-            });
-            // updateActions(index,row);
+            updateActions(index,row);
         },
         toolbar: '#tb'
     });
