@@ -29,7 +29,7 @@ def register(request):
 
 # 主页
 def home(request):
-    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
+    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
     return render(request, 'home.html', {'data': data})
 
 
@@ -37,16 +37,18 @@ def home(request):
 def exactSearch(request):
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
+    pageNumber = int(request.POST.get('pageNumber', None))
+    pageSize = int(request.POST.get('pageSize', None))
     if user and pswd:
-        data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd)).order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd)).order_by('user').values('user', 'pswd', 'id')
     elif user:
-        data = models.UserInfo.objects.filter(Q(user=user)).order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(user=user)).order_by('user').values('user', 'pswd', 'id')
     elif pswd:
-        data = models.UserInfo.objects.filter(Q(pswd=pswd)).order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(pswd=pswd)).order_by('user').values('user', 'pswd', 'id')
     else:
-        data = models.UserInfo.objects.all().order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id')
     data = list(data)
-    rt_dic = {'total': len(data), 'rows': data}
+    rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
     return HttpResponse(json.dumps(rt_dic), content_type="application/json")
 
 
@@ -57,14 +59,13 @@ def fuzzySearch(request):
     pageNumber = int(request.POST.get('pageNumber', None))
     pageSize = int(request.POST.get('pageSize', None))
     if user and pswd:
-        data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd)).order_by('user').values(
-            'user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd)).order_by('user').values('user', 'pswd', 'id')
     elif user:
-        data = models.UserInfo.objects.filter(Q(user__icontains=user)).order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(user__icontains=user)).order_by('user').values('user', 'pswd', 'id')
     elif pswd:
-        data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd)).order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd)).order_by('user').values('user', 'pswd', 'id')
     else:
-        data = models.UserInfo.objects.all().order_by('user').values('user', 'pswd')
+        data = models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id')
     data = list(data)
     rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
     return HttpResponse(json.dumps(rt_dic), content_type="application/json")
@@ -78,17 +79,23 @@ def addUser(request):
     pageSize = int(request.POST.get('pageSize', None))
     if user not in [each.user for each in models.UserInfo.objects.all()]:
         models.UserInfo.objects.create(user=user, pswd=pswd)
-        data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
+        data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
         rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
         return HttpResponse(json.dumps(rt_dic), content_type="application/json")
     return HttpResponse("用户名已存在")
 
 
 # 修改用户
-def updateUser(request):
-    if request.method == 'POST':
-        data = json.loads(request.POST['data'])
-        print(data)
+def editRow(request):
+    dataId = request.POST.get('id', None)
+    user = request.POST.get('user', None)
+    pswd = request.POST.get('pswd', None)
+    pageNumber = int(request.POST.get('pageNumber', None))
+    pageSize = int(request.POST.get('pageSize', None))
+    models.UserInfo.objects.filter(id=dataId).update(pswd=pswd)
+    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
+    rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
+    return HttpResponse(json.dumps(rt_dic), content_type="application/json")
 
 
 # 删除用户
@@ -97,9 +104,9 @@ def deleteUser(request):
     pageNumber = int(request.POST.get('pageNumber', None))
     pageSize = int(request.POST.get('pageSize', None))
     for index, each in enumerate(data, 1):
-        models.UserInfo.objects.filter(user=each['user']).delete()
+        models.UserInfo.objects.filter(id=each['id']).delete()
         print('{} - 用户名:{} 删除成功!'.format(index, each['user']))
-    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd'))
+    data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
     rt_dic = {'total': len(data), 'rows': data[(pageNumber - 1) * pageSize:pageNumber * pageSize]}
     return HttpResponse(json.dumps(rt_dic), content_type="application/json")
 

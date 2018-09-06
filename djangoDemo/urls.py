@@ -25,7 +25,7 @@ urlpatterns = [
     path(r'exactSearch/', views.exactSearch),          # 精确查询
     path(r'fuzzySearch/', views.fuzzySearch),          # 模糊查询
     path(r'addUser/', views.addUser),                  # 新增数据
-    path(r'updateUser/', views.updateUser),            # 修改数据
+    path(r'editRow/', views.editRow),                   # 修改数据
     path(r'deleteUser/', views.deleteUser),            # 删除数据
     path(r'exportExcel/', views.exportExcel),          # 导出数据
 ]

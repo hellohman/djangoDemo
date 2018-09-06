@@ -5,7 +5,13 @@ var dgPageSize = 10;    //初始默认值
 function exactSearch() {
     $('#search').form('submit', {
         url: '/exactSearch/',
+        onSubmit: function (param) {
+            param.pageNumber = 1;
+            param.pageSize = 10;
+        },
         success: function (result) {
+            dgPageNumber = 1;
+            dgPageSize = 10;
             dl_datagrid(result);
         }
     });
@@ -103,16 +109,16 @@ function deleteUserList() {
 function exportExcel() {
     $.post('/exportExcel/',function (result) {
         var title = ["id","用户名","密码"];
-        var field = ["id","user","pswd"]
+        var field = ["id","user","pswd"];
         JSONToExcel(result, "用户信息", title, field);
     })
 }
 
 // 更新行状态
-function updateActions(index){
+function updateActions(index,row){
     $('#dg').datagrid('updateRow',{
         index: index,
-        row:{}
+        row:row
     });
 }
 
@@ -127,6 +133,26 @@ function editRow(target){
     $('#dg').datagrid('beginEdit', getRowIndex(target));
 }
 
+// 删除行
+function deleteRow(target){
+    var index = getRowIndex(target);
+    $.messager.confirm('提示','确认删除第' + (index+1) + '条数据？',function(r){
+        if (r){
+            var rows = $('#dg').datagrid('getRows');        // 所有行
+            var row = [rows[index]];                          // 其中一行
+            var params = {
+                data: JSON.stringify(row),
+                pageNumber: dgPageNumber,
+                pageSize: dgPageSize
+            };
+            $.post('/deleteUser/', params, function (result) {
+                $.messager.alert('提示','成功删除1条数据！','info');
+                dl_datagrid(result);
+            });
+        }
+    });
+}
+
 // 保存行
 function saveRow(target){
     $('#dg').datagrid('endEdit', getRowIndex(target));
@@ -134,42 +160,14 @@ function saveRow(target){
 
 // 取消行编辑
 function cancelRow(target){
-    $('#tt').datagrid('cancelEdit', getRowIndex(target));
-}
-
-// form
-function dl_form(id) {
-    var params = $(id).serialize();
-    var paramsArray = params.split("&");
-    var tempArray = [];
-    for(var i =0;i<paramsArray.length;i++){
-        var obj={};
-        obj.key = paramsArray[i].split("=")[0];
-        obj.value = paramsArray[i].split("=")[1];
-        tempArray.push(obj);
-    }
-    return tempArray;
-}
-
-// data
-function dl_datagrid(input) {
-    var data;
-    if (typeof input == "string") {
-        data = JSON.parse(input);                  // 转json
-    } else {
-        data = input;
-    }
-    if (data['total'] == 0) {
-        $.messager.alert('提示','未查询到数据！','info');
-    } else {
-        $('#dg').datagrid('loadData',data);
-    }
+    $('#dg').datagrid('cancelEdit', getRowIndex(target));
 }
 
 // 数据网格
 $(function(){
     document.getElementById("left_1").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
     $('#dg').datagrid({
+        // iconCls:'icon-edit',
         fit: false,
         method: 'post',
         loadMsg: '数据加载中...',
@@ -181,46 +179,60 @@ $(function(){
         rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
-        fitColumns: true,
+        // fitColumns: true,
         selectOnCheck: true,
         striped: true,
         nowrap: true,
         columns:[[
             {field:'ck',checkbox:true},
+            {field:'id',title:'数据ID',width:150,align:'center',editor:'text',resizable:true,hidden:true},
             {field:'user',title:'用户名',width:150,align:'center',editor:'text',resizable:true},
             {field:'pswd',title:'密码',width:150,align:'center',editor:'text',resizable:true},
-            {field:'status',title:'Status',width:50,align:'center',
-                editor:{
-                    type:'checkbox',
-                    options:{
-                        on: 'P',
-                        off: ''
-                    }
-                }
-            },
             {field:'action',title:'操作',width:80,align:'center',
                 formatter:function(value,row,index){
                     if (row.editing){
-                        var s = '<a href="#" onclick="saveRow(this)">保存</a> ';
-                        var c = '<a href="#" onclick="cancelRow(this)">取消</a>';
-                        return s + c;
+                        var save = '<a href="#" onclick="saveRow(this)">保存 </a>';
+                        var cancel = '<a href="#" onclick="cancelRow(this)">取消</a>';
+                        return save + cancel;
                     } else {
-                        return '<a href="#" onclick="editRow(this)">编辑</a> ';
+                        var edit = '<a href="#" onclick="editRow(this)">修改 </a> ';
+                        var del = '<a href="#" onclick="deleteRow(this)">删除</a>';
+                        return edit + del;
                     }
                 }
             }
         ]],
         onBeforeEdit:function(index,row){
             row.editing = true;
-            updateActions(index);
+            $('#dg').datagrid('updateRow',{
+                index: index,
+                row:row
+            });
+            // updateActions(index,row);
         },
         onAfterEdit:function(index,row){
             row.editing = false;
-            updateActions(index);
+            row.pageNumber = dgPageNumber;
+            row.pageSize = dgPageSize;
+            $.post('/editRow/',row,function (result) {
+                $.messager.alert('提示','数据修改成功！','info');
+                $('#dg').datagrid('updateRow',{
+                    index: index,
+                    row:row
+                });
+                // updateActions(index,row);
+                dl_datagrid(result);
+            });
         },
         onCancelEdit:function(index,row){
             row.editing = false;
-            updateActions(index);
+            row.xxx = false;
+            alert('onCancelEdit');
+            $('#dg').datagrid('updateRow',{
+                index: index,
+                row:row
+            });
+            // updateActions(index,row);
         },
         toolbar: '#tb'
     });
@@ -237,7 +249,7 @@ $(function(){
     fuzzySearch(1,10);
 });
 
-
+// excel
 function JSONToExcel(JSONData, FileName, Title, Field) {
     var arrData = typeof JSONData !== 'object' ? JSON.parse(JSONData) : JSONData;
     var excel = "<table>";
@@ -297,4 +309,33 @@ function JSONToExcel(JSONData, FileName, Title, Field) {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+}
+
+// data
+function dl_datagrid(input) {
+    var data;
+    if (typeof input == "string") {
+        data = JSON.parse(input);                  // 转json
+    } else {
+        data = input;
+    }
+    if (data['total'] == 0) {
+        $.messager.alert('提示','未查询到数据！','info');
+    } else {
+        $('#dg').datagrid('loadData',data);
+    }
+}
+
+// form
+function dl_form(id) {
+    var params = $(id).serialize();
+    var paramsArray = params.split("&");
+    var tempArray = [];
+    for(var i =0;i<paramsArray.length;i++){
+        var obj={};
+        obj.key = paramsArray[i].split("=")[0];
+        obj.value = paramsArray[i].split("=")[1];
+        tempArray.push(obj);
+    }
+    return tempArray;
 }
