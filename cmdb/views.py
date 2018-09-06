@@ -87,9 +87,10 @@ def addUser(request):
 
 # 修改用户
 def editRow(request):
-    dataId = request.POST.get('id', None)
-    user = request.POST.get('user', None)
-    pswd = request.POST.get('pswd', None)
+    data = json.loads(request.POST['data'])
+    dataId = data['id']
+    user = data['user']
+    pswd = data['pswd']
     pageNumber = int(request.POST.get('pageNumber', None))
     pageSize = int(request.POST.get('pageSize', None))
     models.UserInfo.objects.filter(id=dataId).update(pswd=pswd)

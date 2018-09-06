@@ -155,6 +155,22 @@ function deleteRow(target){
 
 // 保存行
 function saveRow(target){
+    var index = getRowIndex(target);
+    $.messager.confirm('提示','确认修改第' + (index+1) + '条数据？',function(r){
+        if (r){
+            var rows = $('#dg').datagrid('getRows');        // 所有行
+            var row = rows[index];                          // 其中一行
+            var params = {
+                data: JSON.stringify(row),
+                pageNumber: dgPageNumber,
+                pageSize: dgPageSize
+            };
+            $.post('/editRow/', params, function (result) {
+                $.messager.alert('提示','成功修改1条数据！','info');
+                dl_datagrid(result);
+            });
+        }
+    });
     $('#dg').datagrid('endEdit', getRowIndex(target));
 }
 
@@ -208,17 +224,11 @@ $(function(){
         },
         onAfterEdit:function(index,row){
             row.editing = false;
-            row.pageNumber = dgPageNumber;
-            row.pageSize = dgPageSize;
-            $.post('/editRow/',row,function (result) {
-                $.messager.alert('提示','数据修改成功！','info');
-                updateActions(index,row);
-                dl_datagrid(result);
-            });
+            alert('onAfterEdit');
+            updateActions(index,row);
         },
         onCancelEdit:function(index,row){
             row.editing = false;
-            row.xxx = false;
             alert('onCancelEdit');
             updateActions(index,row);
         },

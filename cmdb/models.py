@@ -1,4 +1,7 @@
+import datetime
+
 from django.db import models
+from django.utils import timezone
 
 
 # Create your models here.
@@ -7,8 +10,8 @@ from django.db import models
 class UserInfo(models.Model):
     user = models.CharField(max_length=32)
     pswd = models.CharField(max_length=32)
-    create_time = models.DateTimeField(auto_now_add=True)
-    change_time = models.DateTimeField(auto_now=True)
+    create_time = models.DateTimeField(default=timezone.now)
+    change_time = models.DateTimeField(default=datetime)
 
 
 class Salesman(models.Model):
