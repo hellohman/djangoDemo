@@ -89,8 +89,7 @@ function exportData() {
 $(function(){
     document.getElementById("left_1").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
     $('#dg').datagrid({
-        // iconCls:'icon-edit',
-        fit: false,
+        iconCls:'icon-edit',
         method: 'post',
         loadMsg: '数据加载中...',
         pagination: true,
@@ -101,25 +100,29 @@ $(function(){
         rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
+        multiSort: true,                     // 是否多列排序
+        remoteSort: false,                  // 是否从服务器排序数据
+        // collapsible: true,                 // 收缩
         // fitColumns: true,
         selectOnCheck: true,
         striped: true,
         nowrap: true,
+        fixRowHeight: 1,
         toolbar: '#tb',
         columns:[[
             {field:'ck',checkbox:true},
-            {field:'id',title:'数据ID',width:150,align:'center',editor:'text',resizable:true,hidden:true},
-            {field:'user',title:'用户名',width:150,align:'center',editor:'text',resizable:true,required:true},
-            {field:'pswd',title:'密码',width:150,align:'center',editor:'text',resizable:true,required:true},
+            {field:'id',title:'数据ID',width:150,align:'center',editor:'text',hidden:true},
+            {field:'user',title:'用户名',width:"30%",align:'center',editor:'text',resizable:true,sortable:true},
+            {field:'pswd',title:'密码',width:150,align:'center',editor:'text',resizable:true,sortable:true},
             {field:'action',title:'操作',width:80,align:'center',
                 formatter:function(value,row,index){
                     if (row.editing){
-                        var save = '<a href="#" onclick="saveRow(this)">保存</a> ';
-                        var cancel = '<a href="#" onclick="cancelRow(this)">取消</a>';
+                        var save = '<a href="#" onclick="saveRow(this)" style="font-size:13px">保存</a> ';
+                        var cancel = '<a href="#" onclick="cancelRow(this)" style="font-size:13px">取消</a>';
                         return save + cancel;
                     } else {
-                        var edit = '<a href="#" onclick="editRow(this)">修改</a> ';
-                        var del = '<a href="#" onclick="deleteRow(this)">删除</a>';
+                        var edit = '<a href="#" onclick="editRow(this)" style="color:blue;font-size:13px">修改</a> ';
+                        var del = '<a href="#" onclick="deleteRow(this)" style="color:red;font-size:12px">删除</a>';
                         return edit + del;
                     }
                 }
