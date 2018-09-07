@@ -115,10 +115,10 @@ function exportExcel() {
 }
 
 // 更新行状态
-function updateActions(index,row){
+function updateActions(index,dic){
     $('#dg').datagrid('updateRow',{
         index: index,
-        row:{ck:false}
+        row:dic
     });
 }
 
@@ -171,7 +171,6 @@ function saveRow(target){
             });
         }
     });
-    $('#dg').datagrid('endEdit', getRowIndex(target));
 }
 
 // 取消行编辑
@@ -199,6 +198,7 @@ $(function(){
         selectOnCheck: true,
         striped: true,
         nowrap: true,
+        toolbar: '#tb',
         columns:[[
             {field:'ck',checkbox:true},
             {field:'id',title:'数据ID',width:150,align:'center',editor:'text',resizable:true,hidden:true},
@@ -207,11 +207,11 @@ $(function(){
             {field:'action',title:'操作',width:80,align:'center',
                 formatter:function(value,row,index){
                     if (row.editing){
-                        var save = '<a href="#" onclick="saveRow(this)">保存 </a>';
+                        var save = '<a href="#" onclick="saveRow(this)">保存</a> ';
                         var cancel = '<a href="#" onclick="cancelRow(this)">取消</a>';
                         return save + cancel;
                     } else {
-                        var edit = '<a href="#" onclick="editRow(this)">修改 </a> ';
+                        var edit = '<a href="#" onclick="editRow(this)">修改</a> ';
                         var del = '<a href="#" onclick="deleteRow(this)">删除</a>';
                         return edit + del;
                     }
@@ -219,20 +219,11 @@ $(function(){
             }
         ]],
         onBeforeEdit:function(index,row){
-            row.editing = true;
-            updateActions(index,row);
-        },
-        onAfterEdit:function(index,row){
-            row.editing = false;
-            alert('onAfterEdit');
-            updateActions(index,row);
+            updateActions(index,{editing:true});
         },
         onCancelEdit:function(index,row){
-            row.editing = false;
-            alert('onCancelEdit');
-            updateActions(index,row);
-        },
-        toolbar: '#tb'
+            updateActions(index,{editing:false});
+        }
     });
     $('#dg').datagrid('getPager').pagination({
         showRefresh: false,
