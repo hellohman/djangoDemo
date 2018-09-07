@@ -42,13 +42,13 @@
                     <div class="queryForm" style="margin-left: 10px">
                         <p style="margin-left: 0px;">用户名: <input type="text" name="user" required="required" /></p>
                         <p>密 码 : <input type="text" name="pswd" required="required" style="margin-right: 10px"/></p>
-                        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="exactSearch(1,10)" style="width:90px;margin:10px 0px;">精确查询</a>
-                        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="fuzzySearch(1,10)" style="width:90px;">模糊查询</a>
+                        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="queryData(1,10,1)" style="width:90px;margin:10px 0px;">精确查询</a>
+                        <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="queryData(1,10,'fuzzy')" style="width:90px;">模糊查询</a>
                         <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-undo'" onclick="clearForm('#search')" style="width:90px;">重置条件</a>
                         <br/>
-                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="addUser()" style="width:90px;">新增数据</a>
-                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="deleteUserList()" style="width:90px;">删除数据</a>
-                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="exportExcel()" style="width:90px;">导出数据</a>
+                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="insertRow()" style="width:90px;">新增数据</a>
+                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="deleteData()" style="width:90px;">删除数据</a>
+                        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="exportData()" style="width:90px;">导出数据</a>
                         <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-edit'" onclick="" style="width:90px;">批量操作</a>
                     </div>
                 </div>

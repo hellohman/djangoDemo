@@ -10,8 +10,8 @@ from django.utils import timezone
 class UserInfo(models.Model):
     user = models.CharField(max_length=32)
     pswd = models.CharField(max_length=32)
-    create_time = models.DateTimeField(default=timezone.now)
-    change_time = models.DateTimeField(default=datetime)
+    create_time = models.DateTimeField(auto_now=True)
+    # change_time = models.DateTimeField(default=datetime)
 
 
 class Salesman(models.Model):

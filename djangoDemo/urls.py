@@ -19,13 +19,11 @@ from django.urls import path
 from cmdb import views
 
 urlpatterns = [
-    path(r'login/', views.login),                       # 登录页面
-    path(r'home/', views.home),                         # 主页
-    path(r'register/', views.register),                # 注册页面
-    path(r'exactSearch/', views.exactSearch),          # 精确查询
-    path(r'fuzzySearch/', views.fuzzySearch),          # 模糊查询
-    path(r'addUser/', views.addUser),                  # 新增数据
-    path(r'editRow/', views.editRow),                   # 修改数据
-    path(r'deleteUser/', views.deleteUser),            # 删除数据
-    path(r'exportExcel/', views.exportExcel),          # 导出数据
+    path(r'login/', views.login),                        # 登录页面
+    path(r'register/', views.register),                 # 注册页面
+    path(r'home/', views.home),                          # 主页
+    path(r'queryData/', views.queryData),               # 查询: 精确 + 模糊
+    path(r'deleteData/', views.deleteData),             # 删除数据
+    path(r'exportData/', views.exportData),             # 导出数据
+    path(r'editRow/', views.editRow),                   # 修改、添加数据
 ]
