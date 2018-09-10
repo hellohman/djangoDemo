@@ -28,9 +28,9 @@ def register(request):
 
 
 # 主页
-def home(request):
+def user(request):
     data = list(models.UserInfo.objects.all().order_by('user').values('user', 'pswd', 'id'))
-    return render(request, 'home.html', {'data': data})
+    return render(request, 'user.html', {'data': data})
 
 
 # 查询: 精确 + 模糊
@@ -108,3 +108,8 @@ def editRow(request):
             data = list(models.UserInfo.objects.filter(Q(user=user)).values('user', 'pswd', 'id'))
             return HttpResponse(json.dumps(data), content_type="application/json")
         return HttpResponse("用户名已存在")
+
+
+# 用户批量操作
+def userOption(request):
+    return render(request, 'userOption.html', )

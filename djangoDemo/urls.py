@@ -21,9 +21,12 @@ from cmdb import views
 urlpatterns = [
     path(r'login/', views.login),                        # 登录页面
     path(r'register/', views.register),                 # 注册页面
-    path(r'home/', views.home),                          # 主页
+
+    path(r'user/', views.user),                          # 用户页面
     path(r'queryData/', views.queryData),               # 查询: 精确 + 模糊
     path(r'deleteData/', views.deleteData),             # 删除数据
     path(r'exportData/', views.exportData),             # 导出数据
     path(r'editRow/', views.editRow),                   # 修改、添加数据
+
+    path(r'user/userOption/', views.userOption),       # 用户批量操作页面
 ]

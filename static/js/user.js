@@ -6,6 +6,16 @@ function queryData(pageNumber,pageSize,queryType) {
     $('#search').form('submit', {
         url: '/queryData/',
         onSubmit: function (param) {
+            // var data = dl_form('#search');
+            // if (data[0].value === '' && data[0].value === '') {
+            //     $.messager.alert('提示','查询信息不能为空！','warning');
+            //     return false;
+            // } else {
+            //     param.pageNumber = pageNumber;
+            //     param.queryType = queryType;
+            //     param.pageSize = pageSize;
+            //     return true;
+            // }
             param.pageNumber = pageNumber;
             param.queryType = queryType;
             param.pageSize = pageSize;
@@ -76,15 +86,6 @@ function deleteData() {
     }
 }
 
-// 导出数据
-function exportData() {
-    $.post('/exportData/',function (result) {
-        var title = ["id","用户名","密码"];
-        var field = ["id","user","pswd"];
-        JSONToExcel(result, "用户信息", title, field);
-    })
-}
-
 // 数据网格
 $(function(){
     document.getElementById("left_1").innerHTML += "<li>" + "<a href=\"/login/\" title=\"test\">111</a>" + "</li>";
@@ -100,7 +101,7 @@ $(function(){
         rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
-        multiSort: true,                     // 是否多列排序
+        // multiSort: true,                     // 是否多列排序
         remoteSort: false,                  // 是否从服务器排序数据
         // collapsible: true,                 // 收缩
         // fitColumns: true,
@@ -135,7 +136,7 @@ $(function(){
             if (row.user !== "" && row.pswd !== "") {
                 row.editing = false;
                 $.post('/editRow/', row, function (result) {
-                    if (result == "用户名已存在") {
+                    if (result === "用户名已存在") {
                         $.messager.alert('提示','用户名已存在，请重新输入！','info');
                         $('#dg').datagrid('selectRow',index);
                         $('#dg').datagrid('beginEdit',index);
@@ -199,7 +200,7 @@ function deleteRow(target){
                 pageNumber: dgPageNumber,
                 pageSize: dgPageSize
             };
-            $.post('/deleteUser/', params, function (result) {
+            $.post('/deleteData/', params, function (result) {
                 $.messager.alert('提示','成功删除1条数据！','info');
                 dl_datagrid(result);
             });
@@ -227,12 +228,12 @@ function cancelRow(target){
 // data
 function dl_datagrid(input) {
     var data;
-    if (typeof input == "string") {
+    if (typeof input === "string") {
         data = JSON.parse(input);                  // 转json
     } else {
         data = input;
     }
-    if (data['total'] == 0) {
+    if (data['total'] === 0) {
         $.messager.alert('提示','未查询到数据！','info');
     } else {
         $('#dg').datagrid('loadData',data);
@@ -240,8 +241,8 @@ function dl_datagrid(input) {
 }
 
 // form
-function dl_form(id) {
-    var params = $(id).serialize();
+function dl_form(formId) {
+    var params = $(formId).serialize();
     var paramsArray = params.split("&");
     var tempArray = [];
     for(var i =0;i<paramsArray.length;i++){
@@ -251,67 +252,5 @@ function dl_form(id) {
         tempArray.push(obj);
     }
     return tempArray;
-}
-
-// excel
-function JSONToExcel(JSONData, FileName, Title, Field) {
-    var arrData = typeof JSONData !== 'object' ? JSON.parse(JSONData) : JSONData;
-    var excel = "<table>";
-    var rows = "<tr>";
-
-    // 表头
-    for (var i in Title) {
-        rows += "<td>" + Title[i] + "</td>";
-    }
-    excel += rows + "</tr>";
-
-    // 数据
-    for (i = 0; i < arrData.length; i++) {
-        rows = "<tr>";
-        for (var j in Field) {
-            rows += "<td>" + arrData[i][Field[j]] + "</td>";
-        }
-        excel += rows + "</tr>";
-    }
-    excel += "</table>";
-
-    var excelFile = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>";
-    excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8">';
-    excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel';
-    excelFile += '; charset=UTF-8">';
-    excelFile += "<head>";
-    excelFile += "<!--[if gte mso 9]>";
-    excelFile += "<xml>";
-    excelFile += "<x:ExcelWorkbook>";
-    excelFile += "<x:ExcelWorksheets>";
-    excelFile += "<x:ExcelWorksheet>";
-    excelFile += "<x:Name>";
-    excelFile += "Sheet1";
-    excelFile += "</x:Name>";
-    excelFile += "<x:WorksheetOptions>";
-    excelFile += "<x:DisplayGridlines/>";
-    excelFile += "</x:WorksheetOptions>";
-    excelFile += "</x:ExcelWorksheet>";
-    excelFile += "</x:ExcelWorksheets>";
-    excelFile += "</x:ExcelWorkbook>";
-    excelFile += "</xml>";
-    excelFile += "<![endif]-->";
-    excelFile += "</head>";
-    excelFile += "<body>";
-    excelFile += excel;
-    excelFile += "</body>";
-    excelFile += "</html>";
-
-    var uri = 'data:application/vnd.ms-excel;charset=utf-8,' + encodeURIComponent(excelFile);
-
-    var link = document.createElement("a");
-    link.href = uri;
-
-    link.style = "visibility:hidden";
-    link.download = FileName + ".xls";
-
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
 }
 // ------------------------------------------------- 辅 助 ---------------------------------------------------------- //
