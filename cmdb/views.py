@@ -117,12 +117,32 @@ def userOption(request):
         field_row, excel = 1, xlrd.open_workbook(file_contents=request.FILES['uploadExcel'].read())
         table = excel.sheets()[0]
         key_arr = table.row_values(field_row - 1)
-        if key_arr == ['排名', 'cities', 'pop', 'GDP', 'GDP_Average', 'GDP_Avrg(Dollar)', 'lon', 'lat']:
-            index_dic = {aa:key_arr.index(aa) for aa in key_arr}
-            for i in range(field_row,table.nrows):
-                print({bb:str(table.row_values(i)[index_dic[bb]]) for bb in key_arr})
-            # data = [{bb:str(table.row_values(i)[index_dic[bb]]) for bb in key_arr} for i in range(field_row,table.nrows)]
+        if key_arr == ['操作类型(1-修改数据；2-新增数据；3-删除数据)', '数据id', '用户名', '密码']:
+            index_dic = {aa: key_arr.index(aa) for aa in key_arr}
+            rt_arr = []
+            for i in range(field_row, table.nrows):
+                try:
+                    # 1.解析数据
+                    data_id = int(table.row_values(i)[index_dic['数据id']])
+                    data_type = int(table.row_values(i)[index_dic['操作类型(1-修改数据；2-新增数据；3-删除数据)']])
+                    data_user = str(table.row_values(i)[index_dic['用户名']])
+                    data_pswd = str(table.row_values(i)[index_dic['密码']])
+                    print('id:{} - type:{} - user:{} - pswd:{}'.format(data_id,data_type,data_user,data_pswd))
+                    # 2.操作
+                    if data_type == 1:        # 修改
+                        models.UserInfo.objects.filter(id=data_id).update(pswd=data_pswd)
+                    elif data_type == 2:      # 新增
+                        models.UserInfo.objects.create(user=data_user, pswd=data_pswd)
+                    elif data_type == 3:      # 删除
+                        models.UserInfo.objects.filter(id=data_id).delete()
+                    else:
+                        rt_arr.append('第{}行数据操作失败！'.format(i))
+                except:
+                    rt_arr.append('第{}行数据操作失败！'.format(i))
+            if rt_arr:
+                return HttpResponse(json.dumps(rt_arr), content_type="application/json")
+            return HttpResponse("所有数据操作成功: 共{}条数据！".format(table.nrows - field_row))
         else:
-            return HttpResponse("请勿修改模板表格第一行抬头！")
+            return HttpResponse("请勿修改模板表格第一行的文字！")
     else:
         return render(request, 'userOption.html', )

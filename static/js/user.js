@@ -28,7 +28,7 @@ function queryData(pageNumber,pageSize,queryType) {
     });
 }
 
-// 重置条件
+// 清空条件
 function clearForm(id){
     $(id).form('clear');
     dgPageNumber = 1;
