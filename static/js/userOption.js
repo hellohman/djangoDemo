@@ -9,49 +9,98 @@ function exportData() {
 
 // 模板下载
 function downloadModel() {
-    var title = ["操作类型","数据id","用户名","密码","操作类型编号：1-修改数据；2-新增数据；3-删除数据"];
+    var title = ["操作类型(1-修改数据；2-新增数据；3-删除数据)","数据id","用户名","密码"];
     var field = [];
     var result = [];
     JSONToExcel(result, "操作模板", title, field);
 }
 
 // 导入数据
-function importData() {
+function uploadExcel() {
 
-    //得到上传文件的全路径
-    var fileName= $('#uploadExcel').filebox('getValue');
-    //获取题型
-    var id = $('#questionType').combobox('getValue');
-    var questionTypes = encodeURI(id);
-
-    if(questionTypes !== ""){
-        //进行基本校验
-        if(fileName === ""){
-            $.messager.alert('提示','请选择上传文件！','info');
-        }else{
-            //对文件格式进行校验
-            var d1=/\.[^\.]+$/.exec(fileName);
-            if(d1==".xls"){
-                //获取题型
-                var id= $('#questionType').combobox('getValue')
-                var questionTypes=encodeURI(id);
-
-                //获取课程
-                var courseTypeId =$('#courseTypeId').combobox('getValue')
-                var courseType=encodeURI(courseTypeId);
-
-                //提交表单
-                document.getElementById("questionTypesManage").action="${pageContext.request.contextPath}/leadtoQuestionTypes/leadInExcelQuestionBank?questionType="+questionTypes+"&courseType="+courseType;
-                document.getElementById("questionTypesManage").submit();
-                $.messager.alert('提示','操作成功！','info');
-            }else{
-                $.messager.alert('提示','请选择xls格式文件！','info');
-                $('#uploadExcel').filebox('setValue','');
-            }
+    $('#questionTypesManage').form('submit', {
+        url: '/user/userOption/',
+        onSubmit: function (param) {
+            // var data = dl_form('#search');
+            // if (data[0].value === '' && data[0].value === '') {
+            //     $.messager.alert('提示','查询信息不能为空！','warning');
+            //     return false;
+            // } else {
+            //     param.pageNumber = pageNumber;
+            //     param.queryType = queryType;
+            //     param.pageSize = pageSize;
+            //     return true;
+            // }
+            // param.pageNumber = pageNumber;
+            // param.queryType = queryType;
+            param.pageSize = 1;
+        },
+        success: function (result) {
+            alert(result);
+            // dgPageNumber = pageNumber;
+            // dgPageSize = pageSize;
+            // dl_datagrid(result);
         }
-    }else{
-        $.messager.alert('提示','请选择课程题型！','info');
-    }
+    });
+
+    // //得到上传文件的全路径
+    // var fileName= $('#uploadExcel').filebox('getValue');
+    // if(fileName === ""){
+    //     $.messager.alert('提示','请选择上传文件！','info');
+    // }else{
+    //     //对文件格式进行校验
+    //     var d1 = /\.[^\.]+$/.exec(fileName);
+    //     alert(d1);
+    //     if(d1 === ".xls" || d1 === ".xlsx"){
+    //         // //获取题型
+    //         // var id= $('#questionType').combobox('getValue')
+    //         // var questionTypes=encodeURI(id);
+    //         //
+    //         // //获取课程
+    //         // var courseTypeId =$('#courseTypeId').combobox('getValue')
+    //         // var courseType=encodeURI(courseTypeId);
+    //
+    //         //提交表单
+    //         document.getElementById("questionTypesManage").action="${pageContext.request.contextPath}/leadtoQuestionTypes/leadInExcelQuestionBank?questionType="+questionTypes+"&courseType="+courseType;
+    //         document.getElementById("questionTypesManage").submit();
+    //         $.messager.alert('提示','操作成功！','info');
+    //     }else{
+    //         $.messager.alert('提示','请选择xls格式文件！','info');
+    //         $('#uploadExcel').filebox('setValue','');
+    //     }
+    // }
+    //获取题型
+    // var id = $('#questionType').combobox('getValue');
+    // var questionTypes = encodeURI(id);
+
+    // if(questionTypes !== ""){
+    //     //进行基本校验
+    //     if(fileName === ""){
+    //         $.messager.alert('提示','请选择上传文件！','info');
+    //     }else{
+    //         //对文件格式进行校验
+    //         var d1=/\.[^\.]+$/.exec(fileName);
+    //         if(d1==".xls"){
+    //             //获取题型
+    //             var id= $('#questionType').combobox('getValue')
+    //             var questionTypes=encodeURI(id);
+    //
+    //             //获取课程
+    //             var courseTypeId =$('#courseTypeId').combobox('getValue')
+    //             var courseType=encodeURI(courseTypeId);
+    //
+    //             //提交表单
+    //             document.getElementById("questionTypesManage").action="${pageContext.request.contextPath}/leadtoQuestionTypes/leadInExcelQuestionBank?questionType="+questionTypes+"&courseType="+courseType;
+    //             document.getElementById("questionTypesManage").submit();
+    //             $.messager.alert('提示','操作成功！','info');
+    //         }else{
+    //             $.messager.alert('提示','请选择xls格式文件！','info');
+    //             $('#uploadExcel').filebox('setValue','');
+    //         }
+    //     }
+    // }else{
+    //     $.messager.alert('提示','请选择课程题型！','info');
+    // }
 }
 
 // 导出辅助

@@ -1,5 +1,6 @@
 import json
 
+import xlrd
 from django.db.models import Q
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
@@ -112,4 +113,16 @@ def editRow(request):
 
 # 用户批量操作
 def userOption(request):
-    return render(request, 'userOption.html', )
+    if request.method == 'POST':
+        field_row, excel = 1, xlrd.open_workbook(file_contents=request.FILES['uploadExcel'].read())
+        table = excel.sheets()[0]
+        key_arr = table.row_values(field_row - 1)
+        if key_arr == ['排名', 'cities', 'pop', 'GDP', 'GDP_Average', 'GDP_Avrg(Dollar)', 'lon', 'lat']:
+            index_dic = {aa:key_arr.index(aa) for aa in key_arr}
+            for i in range(field_row,table.nrows):
+                print({bb:str(table.row_values(i)[index_dic[bb]]) for bb in key_arr})
+            # data = [{bb:str(table.row_values(i)[index_dic[bb]]) for bb in key_arr} for i in range(field_row,table.nrows)]
+        else:
+            return HttpResponse("请勿修改模板表格第一行抬头！")
+    else:
+        return render(request, 'userOption.html', )

@@ -162,6 +162,8 @@ $(function(){
         afterPageText: '页.共{pages}页',
         displayMsg: '第{from}-{to}条. 共{total}条',
         onSelectPage:function(pageNumber, pageSize){
+            dgPageSize = pageSize;
+            dgPageNumber = pageNumber;
             queryData(pageNumber,pageSize,'fuzzy');
         }
     });
