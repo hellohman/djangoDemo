@@ -35,6 +35,16 @@ function clearForm(id){
     queryData(dgPageNumber,dgPageSize,'fuzzy');
 }
 
+// 全部勾选
+function checkAll() {
+    $('#dg').datagrid('checkAll');
+}
+
+// 取消勾选
+function uncheckAll() {
+    $('#dg').datagrid('uncheckAll');
+}
+
 // 新增数据
 function insertRow(){
     var index = 0;
@@ -112,9 +122,10 @@ $(function(){
         toolbar: '#tb',
         columns:[[
             {field:'ck',checkbox:true},
-            {field:'id',title:'数据ID',width:150,align:'center',editor:'text',hidden:true},
-            {field:'user',title:'用户名',width:"30%",align:'center',editor:'text',resizable:true,sortable:true},
+            {field:'id',title:'数据ID',width:50,align:'center',editor:'text',hidden:true},
+            {field:'user',title:'用户名',width:150,align:'center',editor:'text',resizable:true,sortable:true},
             {field:'pswd',title:'密码',width:150,align:'center',editor:'text',resizable:true,sortable:true},
+            {field:'create_time',title:'创建时间',width:200,align:'center',editor:'text',resizable:true,sortable:true},
             {field:'action',title:'操作',width:80,align:'center',
                 formatter:function(value,row,index){
                     if (row.editing){
@@ -152,7 +163,11 @@ $(function(){
             }
         },
         onCancelEdit:function(index,row){
-            updateActions(index,{editing:false});
+            if (typeof row.id === 'undefined') {
+                $('#dg').datagrid('deleteRow',index);
+            } else {
+                updateActions(index,{editing:false});
+            }
         }
     });
     $('#dg').datagrid('getPager').pagination({

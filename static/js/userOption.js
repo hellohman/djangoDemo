@@ -21,25 +21,11 @@ function uploadExcel() {
     $('#questionTypesManage').form('submit', {
         url: '/user/userOption/',
         onSubmit: function (param) {
-            // var data = dl_form('#search');
-            // if (data[0].value === '' && data[0].value === '') {
-            //     $.messager.alert('提示','查询信息不能为空！','warning');
-            //     return false;
-            // } else {
-            //     param.pageNumber = pageNumber;
-            //     param.queryType = queryType;
-            //     param.pageSize = pageSize;
-            //     return true;
-            // }
-            // param.pageNumber = pageNumber;
-            // param.queryType = queryType;
-            param.pageSize = 1;
         },
         success: function (result) {
-            alert(result);
-            // dgPageNumber = pageNumber;
-            // dgPageSize = pageSize;
-            // dl_datagrid(result);
+            if (result == '请勿修改模板表格第一行的文字！' || result == '密码错误！') {
+
+            }
         }
     });
 

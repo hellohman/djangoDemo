@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/cmdb/HhHelper/rowsHelper.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cmdb/views.py" afterPath="$PROJECT_DIR$/cmdb/views.py" />
+      <change beforePath="$PROJECT_DIR$/django.txt" afterPath="$PROJECT_DIR$/django.txt" />
       <change beforePath="$PROJECT_DIR$/static/js/user.js" afterPath="$PROJECT_DIR$/static/js/user.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/userOption.js" afterPath="$PROJECT_DIR$/static/js/userOption.js" />
       <change beforePath="$PROJECT_DIR$/templates/user.html" afterPath="$PROJECT_DIR$/templates/user.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +32,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state relative-caret-position="182">
+              <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -37,10 +41,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="django.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="userOption.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/userOption.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="741">
               <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="78" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -56,43 +70,52 @@
       <file leaf-file-name="userOption.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/userOption.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="-371">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#4;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="127" column="54" lean-forward="false" selection-start-line="127" selection-start-column="54" selection-end-line="127" selection-end-column="54" />
               <folding>
-                <marker date="1536576694013" expanded="true" signature="4149:4163" ph="..." />
-                <marker date="1536576694013" expanded="true" signature="4258:4272" ph="..." />
-                <marker date="1536576694013" expanded="true" signature="4437:4462" ph="..." />
-                <marker date="1536576694013" expanded="true" signature="4554:4578" ph="..." />
+                <marker date="1536634100240" expanded="true" signature="4402:4416" ph="..." />
+                <marker date="1536634100240" expanded="true" signature="4511:4525" ph="..." />
+                <marker date="1536634100240" expanded="true" signature="4690:4715" ph="..." />
+                <marker date="1536634100240" expanded="true" signature="4807:4831" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,18 +125,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tt</find>
-      <find>deleteUser</find>
-      <find>submit</find>
       <find>onBeforeEdit</find>
       <find>1.5.5.7</find>
       <find>$.fn.datagrid=function</find>
@@ -141,6 +161,9 @@
       <find>choose</find>
       <find>search</find>
       <find>post</find>
+      <find>.values('user', 'pswd', 'id')</find>
+      <find>order_by</find>
+      <find>order_by('create_time')</find>
     </findStrings>
     <replaceStrings>
       <replace>1.6.2</replace>
@@ -157,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/o/众安科技/紫金/投保单系统打印/template.xml" />
-        <option value="$USER_HOME$/Desktop/o/众安科技/紫金/保单缴费通知书/test.json" />
         <option value="$USER_HOME$/Desktop/o/众安科技/紫金/保单缴费通知书/template.xml" />
         <option value="$USER_HOME$/Desktop/o/众安科技/紫金/150002/test.json" />
         <option value="$USER_HOME$/Desktop/o/众安科技/紫金/150002/template.xml" />
@@ -198,16 +219,18 @@
         <option value="$PROJECT_DIR$/static/css/user.css" />
         <option value="$PROJECT_DIR$/static/js/usersOption.js" />
         <option value="$PROJECT_DIR$/templates/usersOption.html" />
-        <option value="$PROJECT_DIR$/djangoDemo/urls.py" />
         <option value="$PROJECT_DIR$/static/jquery-easyui-1.6.2/jquery.easyui.min.js" />
         <option value="E:/easyUI/jquery-easyui-1.6.2/demo/filebox/buttonalign.html" />
         <option value="$PROJECT_DIR$/lib/HhTime.py" />
         <option value="$PROJECT_DIR$/lib/HhExcel.py" />
+        <option value="$PROJECT_DIR$/templates/userOption.html" />
+        <option value="$PROJECT_DIR$/djangoDemo/urls.py" />
         <option value="$PROJECT_DIR$/static/js/userOption.js" />
+        <option value="$PROJECT_DIR$/django.txt" />
+        <option value="$PROJECT_DIR$/templates/user.html" />
+        <option value="$PROJECT_DIR$/cmdb/help_1.py" />
         <option value="$PROJECT_DIR$/cmdb/views.py" />
         <option value="$PROJECT_DIR$/static/js/user.js" />
-        <option value="$PROJECT_DIR$/templates/userOption.html" />
-        <option value="$PROJECT_DIR$/templates/user.html" />
       </list>
     </option>
   </component>
@@ -275,9 +298,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,33 +316,18 @@
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="cmdb" type="462c0819:PsiDirectoryNode" />
+              <item name="HhHelper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-easyui-1.6.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-easyui-1.6.2" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-easyui-1.6.2" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -336,7 +344,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,18 +360,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\项目\HH\djangoDemo\static" />
-      <recent name="D:\项目\HH\djangoDemo\static\js" />
-      <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
-      <recent name="D:\项目\HH\djangoDemo\static_1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\项目\HH\djangoDemo\lib" />
       <recent name="D:\项目\HH\djangoDemo\static\jquery-easyui-1.6.2\demo" />
       <recent name="D:\项目\HH\djangoDemo\static" />
       <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
       <recent name="D:\项目\HH\djangoDemo\templates\easyUI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\项目\HH\djangoDemo\cmdb\HhHelper" />
+      <recent name="D:\项目\HH\djangoDemo\static" />
+      <recent name="D:\项目\HH\djangoDemo\static\js" />
+      <recent name="D:\项目\HH\djangoDemo\static\easyUI" />
+      <recent name="D:\项目\HH\djangoDemo\static_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -589,12 +598,13 @@
       <workItem from="1536111896468" duration="26397000" />
       <workItem from="1536197690694" duration="25997000" />
       <workItem from="1536284534532" duration="26189000" />
-      <workItem from="1536542930127" duration="24487000" />
+      <workItem from="1536542930127" duration="25049000" />
+      <workItem from="1536629876117" duration="4234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336480000" />
+    <option name="totallyTimeSpent" value="341276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,20 +626,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41358024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41358024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28858024" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2366958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3611111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42746913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -704,7 +714,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/cmdb/views.py</url>
-          <line>131</line>
+          <line>127</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
@@ -715,204 +725,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="125" />
+      <option name="time" value="127" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/clear.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/cut.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/edit_add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/edit_remove.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/filesave.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/filter.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/help.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_chart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_clipart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_picture.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_shapes.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_smartart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/lock.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/man.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_edit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_refresh.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/more.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/no.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/ok.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/pencil.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/print.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/redo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/reload.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/tip.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/undo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/sum.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://E:/easyUI/jquery-easyui-1.6.2/demo/filebox/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/default/easyui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="944" column="8" lean-forward="false" selection-start-line="944" selection-start-column="1" selection-end-line="944" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/demo/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/jquery.easyui.mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="126" column="53" lean-forward="false" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/jquery.easyui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -925,44 +742,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HhTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/HhTime.py" />
     <entry file="file://E:/Python/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="310" column="25" lean-forward="true" selection-start-line="310" selection-start-column="25" selection-end-line="310" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HhExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/userOption.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/HhExcel.py" />
     <entry file="file://E:/Python/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -975,15 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,33 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmdb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <marker date="1536576694013" expanded="true" signature="4149:4163" ph="..." />
-            <marker date="1536576694013" expanded="true" signature="4258:4272" ph="..." />
-            <marker date="1536576694013" expanded="true" signature="4437:4462" ph="..." />
-            <marker date="1536576694013" expanded="true" signature="4554:4578" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,9 +796,24 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/userOption.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="741">
           <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="78" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1056,19 +825,234 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoDemo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/undo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/tip.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/sum.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/search.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/reload.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/redo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/print.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/pencil.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/ok.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/no.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/more.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_refresh.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_edit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/mini_add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/man.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/lock.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_smartart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_shapes.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_clipart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/large_chart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/help.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/filter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/filesave.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/edit_remove.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/edit_add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/cut.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.6.2/themes/icons/clear.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdb/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdb/HhHelper/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/userOption.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+        <state relative-caret-position="-371">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdb/HhHelper/rowsHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmdb/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="84" column="6" lean-forward="true" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="127" column="54" lean-forward="false" selection-start-line="127" selection-start-column="54" selection-end-line="127" selection-end-column="54" />
+          <folding>
+            <marker date="1536634100240" expanded="true" signature="4402:4416" ph="..." />
+            <marker date="1536634100240" expanded="true" signature="4511:4525" ph="..." />
+            <marker date="1536634100240" expanded="true" signature="4690:4715" ph="..." />
+            <marker date="1536634100240" expanded="true" signature="4807:4831" ph="..." />
           </folding>
         </state>
       </provider>

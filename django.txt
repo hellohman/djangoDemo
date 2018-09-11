@@ -1,3 +1,4 @@
+https://code.ziqiangxuetang.com/django/django-basic.html
 https://www.cnblogs.com/geekmao/p/7612430.html
 
 启动:
@@ -52,6 +53,8 @@ Mysql:
         2.多个字段
             Q(condition1)|Q(condition2)                             or
             Q(condition1),Q(condition2)                             and
+
+    models.UserInfo.objects.all().extra(select={'tag_name': 'name'})        SELECT name AS tag_name FROM blog_tag
 
     字段:
         https://www.cnblogs.com/zh605929205/articles/7103825.html
