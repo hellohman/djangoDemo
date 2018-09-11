@@ -112,7 +112,7 @@ $(function(){
         singleSelect: false,
         checkOnSelect: true,
         // fitColumns: true,
-        // fit: true,                            // 全屏
+        fit: true,                            // 全屏
         // multiSort: true,                     // 是否多列排序
         // collapsible: true,                  // 收缩
         remoteSort: false,                  // 是否从服务器排序数据

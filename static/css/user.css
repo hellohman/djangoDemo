@@ -28,6 +28,9 @@
 .queryForm>p>input {
     width: 170px;
 }
+.queryFormButton {
+    margin-left:10px;
+}
 .queryFormButton>a {
     width:90px;
     margin: 0 3px;
