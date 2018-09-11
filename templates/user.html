@@ -13,8 +13,8 @@
     <script type="text/javascript" src="/static/js/user.js"></script>
     <title>测试</title>
 </head>
-<body class="easyui-layout" style="margin-top:10px;margin-bottom: 10px;">
-<div id="navigation" data-options="region:'west',split:true,title:'导航栏'" style="width:200px;padding:10px;">
+<body class="easyui-layout">
+<div id="navigation" data-options="region:'west',split:true,title:'导航栏'">
     <h2>参考手册1</h2>
     <ul id="left_1">
         <li>
@@ -34,16 +34,16 @@
         </li>
     </ul>
 </div>
-<div data-options="region:'center',split:true,title:'用户信息'" >
-    <table id="dg" title="操作" ></table>
+<div id="right" data-options="region:'center',split:true,title:'用户信息'" >
+    <table id="dg" title="操作"></table>
     <div id="tb">
         <form id="search" method="post">
             <div style="margin-bottom:10px">
-                <div class="queryForm" style="margin-left:10px;margin-bottom:0;">
-                    <p>用户名: <input class="easyui-textbox" name="user"></p>
-                    <p>密 码 : <input class="easyui-textbox" name="pswd"></p>
-                    <p>起始日期 : <input class="easyui-datebox" name="beginTime"></p>
-                    <p>结束日期 : <input class="easyui-datebox" name="stopTime"></p>
+                <div class="queryForm">
+                    <p><span>用户名:</span><input class="easyui-textbox" name="user"></p>
+                    <p><span>密 码:</span><input class="easyui-textbox" name="pswd"></p>
+                    <p><span>起始日期:</span><input class="easyui-datebox" name="beginTime"></p>
+                    <p><span>结束日期:</span><input class="easyui-datebox" name="stopTime"></p>
                     <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="queryData(1,dgPageSize,1)">精确查询</a>
                     <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-search'" onclick="queryData(1,dgPageSize,'fuzzy')">模糊查询</a>
                     <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-undo'" onclick="clearForm('#search')">清空条件</a>

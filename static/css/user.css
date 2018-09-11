@@ -2,7 +2,9 @@
     display:block!important;
 }
 .queryForm {
-    zoom:1
+    zoom:1;
+    margin-left:10px;
+    margin-bottom:0;
 }
 .queryForm:after {
     visibility: hidden;
@@ -14,6 +16,10 @@
 .queryForm>p {
     float: left;
     margin: 10px 10px 0 0;
+}
+.queryForm>p>span {
+    margin-right: 2px;
+    text-align:left;
 }
 .queryForm>a {
     width: 90px;
@@ -37,6 +43,16 @@
     font-size: 15px;
 }
 #dg {
-    max-height: 600px;
+    height: 600px;
     width: 600px;
+}
+#navigation {
+    width:200px;
+    padding:10px;
+}
+.easyui-layout {
+    margin: 5px!important;
+}
+#right {
+    padding: 10px;
 }

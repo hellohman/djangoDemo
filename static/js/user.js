@@ -209,7 +209,7 @@ function editRow(target){
 // 删除行
 function deleteRow(target){
     var index = getRowIndex(target);
-    $.messager.confirm('提示','确认删除第' + (index+1) + '条数据？',function(r){
+    $.messager.confirm('提示','确认删除 第' + (index+1) + '条 数据？',function(r){
         if (r){
             var rows = $('#dg').datagrid('getRows');        // 所有行
             var row = [rows[index]];                          // 其中一行
@@ -229,7 +229,7 @@ function deleteRow(target){
 // 保存行
 function saveRow(target){
     var index = getRowIndex(target);
-    $.messager.confirm('提示','确认修改第' + (index+1) + '条数据？',function(r){
+    $.messager.confirm('提示','确认修改 第' + (index+1) + '条 数据？',function(r){
         if (r){
             $('#dg').datagrid('endEdit', index);
         }
