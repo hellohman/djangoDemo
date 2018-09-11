@@ -5,6 +5,7 @@ from django.db.models import Q
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from cmdb import models
+from cmdb.HhHelper.paramsHelper import dl_beginAndStopDate
 from cmdb.HhHelper.rowsHelper import dl_rows2TotalRowsJson
 
 
@@ -13,8 +14,7 @@ def login(request):
     if request.method == 'POST':
         user = request.POST.get('user', None)
         pswd = request.POST.get('pswd', None)
-        data = models.UserInfo.objects.all().order_by('-create_time')
-        for each in data:
+        for each in models.UserInfo.objects.all():
             if user == each.user:
                 if pswd == each.pswd:
                     return HttpResponse("登陆成功！")
@@ -37,40 +37,37 @@ def user(request):
 
 # 查询: 精确 + 模糊
 def queryData(request):
-    pageNumber = int(request.POST.get('pageNumber', None))
-    pageSize = int(request.POST.get('pageSize', None))
+    pageNumber, pageSize = int(request.POST.get('pageNumber', None)), int(request.POST.get('pageSize', None))
     queryType = request.POST.get('queryType', None)
     user = request.POST.get('user', None)
     pswd = request.POST.get('pswd', None)
+    beginTime, stopTime = dl_beginAndStopDate(request.POST.get('beginTime', None), request.POST.get('stopTime', None))
     if queryType == 'fuzzy':                                   # 模糊查询
         if user and pswd:
-            data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(pswd__icontains=pswd), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         elif user:
-            data = models.UserInfo.objects.filter(Q(user__icontains=user)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(user__icontains=user), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         elif pswd:
-            data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(pswd__icontains=pswd), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         else:
-            data = models.UserInfo.objects.all().order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
-        rt_json = dl_rows2TotalRowsJson(data, pageNumber, pageSize, ['create_time'])
-        return HttpResponse(rt_json, content_type="application/json")
+            data = models.UserInfo.objects.filter(Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
     else:                                                       # 精确查询
         if user and pswd:
-            data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(user=user), Q(pswd=pswd), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         elif user:
-            data = models.UserInfo.objects.filter(Q(user=user)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(user=user), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         elif pswd:
-            data = models.UserInfo.objects.filter(Q(pswd=pswd)).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+            data = models.UserInfo.objects.filter(Q(pswd=pswd), Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
         else:
-            data = models.UserInfo.objects.all().order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
-        rt_json = dl_rows2TotalRowsJson(data, pageNumber, pageSize, ['create_time'])
-        return HttpResponse(rt_json, content_type="application/json")
+            data = models.UserInfo.objects.filter(Q(create_time__range=(beginTime, stopTime))).order_by('-create_time').values('id', 'user', 'pswd', 'create_time')
+    rt_json = dl_rows2TotalRowsJson(data, pageNumber, pageSize, ['create_time'])
+    return HttpResponse(rt_json, content_type="application/json")
 
 
 # 删除数据
 def deleteData(request):
     data = json.loads(request.POST['data'])
-    pageNumber = int(request.POST.get('pageNumber', None))
-    pageSize = int(request.POST.get('pageSize', None))
+    pageNumber, pageSize = int(request.POST.get('pageNumber', None)), int(request.POST.get('pageSize', None))
     for index, each in enumerate(data, 1):
         try:
             models.UserInfo.objects.filter(id=each['id']).delete()

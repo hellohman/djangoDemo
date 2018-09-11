@@ -111,10 +111,11 @@ $(function(){
         rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
-        // multiSort: true,                     // 是否多列排序
-        remoteSort: false,                  // 是否从服务器排序数据
-        // collapsible: true,                 // 收缩
         // fitColumns: true,
+        // fit: true,                            // 全屏
+        // multiSort: true,                     // 是否多列排序
+        // collapsible: true,                  // 收缩
+        remoteSort: false,                  // 是否从服务器排序数据
         selectOnCheck: true,
         striped: true,
         nowrap: true,
