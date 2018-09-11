@@ -129,11 +129,12 @@ def userOption(request):
                     elif data_type == 3:      # 删除
                         models.UserInfo.objects.filter(id=data_id).delete()
                     else:
-                        rt_arr.append('第{}行数据操作失败！'.format(i))
+                        rt_arr.append({'result':'第{}行数据操作失败！'.format(i)})
                 except:
-                    rt_arr.append('第{}行数据操作失败！'.format(i))
+                    rt_arr.append({'result':'第{}行数据操作失败！'.format(i)})
             if rt_arr:
-                return HttpResponse(json.dumps(rt_arr), content_type="application/json")
+                rt_dic = {'total': len(rt_arr), 'rows': rt_arr}
+                return HttpResponse(json.dumps(rt_dic), content_type="application/json")
             return HttpResponse("所有数据操作成功: 共{}条数据！".format(table.nrows - field_row))
         else:
             return HttpResponse("请勿修改模板表格第一行的文字！")

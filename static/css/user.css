@@ -45,10 +45,6 @@
 #left a {
     font-size: 15px;
 }
-#dg {
-    height: 600px;
-    width: 600px;
-}
 #navigation {
     width:200px;
     padding:10px;
@@ -58,4 +54,9 @@
 }
 #right {
     padding: 10px;
+}
+.easyui-panel {
+    width:260px;
+    padding:10px 20px;
+    margin-bottom: 20px;
 }

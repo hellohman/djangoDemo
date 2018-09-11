@@ -23,70 +23,22 @@ function uploadExcel() {
         onSubmit: function (param) {
         },
         success: function (result) {
-            if (result == '请勿修改模板表格第一行的文字！' || result == '密码错误！') {
-
+            if (result === "请勿修改模板表格第一行的文字！") {
+                $.messager.alert('提示',result,'warning');
+            } else if(result.substr(0, 8) === "所有数据操作成功") {
+                $.messager.alert('提示',result,'warning');
+            } else {
+                var data;
+                if (typeof result === "string") {
+                    data = JSON.parse(result);                  // 转json
+                } else {
+                    data = result;
+                }
+                $('#dg').datagrid('loadData',data);
+                $.messager.alert('提示','导入完毕，处理结果如下！','info');
             }
         }
     });
-
-    // //得到上传文件的全路径
-    // var fileName= $('#uploadExcel').filebox('getValue');
-    // if(fileName === ""){
-    //     $.messager.alert('提示','请选择上传文件！','info');
-    // }else{
-    //     //对文件格式进行校验
-    //     var d1 = /\.[^\.]+$/.exec(fileName);
-    //     alert(d1);
-    //     if(d1 === ".xls" || d1 === ".xlsx"){
-    //         // //获取题型
-    //         // var id= $('#questionType').combobox('getValue')
-    //         // var questionTypes=encodeURI(id);
-    //         //
-    //         // //获取课程
-    //         // var courseTypeId =$('#courseTypeId').combobox('getValue')
-    //         // var courseType=encodeURI(courseTypeId);
-    //
-    //         //提交表单
-    //         document.getElementById("questionTypesManage").action="${pageContext.request.contextPath}/leadtoQuestionTypes/leadInExcelQuestionBank?questionType="+questionTypes+"&courseType="+courseType;
-    //         document.getElementById("questionTypesManage").submit();
-    //         $.messager.alert('提示','操作成功！','info');
-    //     }else{
-    //         $.messager.alert('提示','请选择xls格式文件！','info');
-    //         $('#uploadExcel').filebox('setValue','');
-    //     }
-    // }
-    //获取题型
-    // var id = $('#questionType').combobox('getValue');
-    // var questionTypes = encodeURI(id);
-
-    // if(questionTypes !== ""){
-    //     //进行基本校验
-    //     if(fileName === ""){
-    //         $.messager.alert('提示','请选择上传文件！','info');
-    //     }else{
-    //         //对文件格式进行校验
-    //         var d1=/\.[^\.]+$/.exec(fileName);
-    //         if(d1==".xls"){
-    //             //获取题型
-    //             var id= $('#questionType').combobox('getValue')
-    //             var questionTypes=encodeURI(id);
-    //
-    //             //获取课程
-    //             var courseTypeId =$('#courseTypeId').combobox('getValue')
-    //             var courseType=encodeURI(courseTypeId);
-    //
-    //             //提交表单
-    //             document.getElementById("questionTypesManage").action="${pageContext.request.contextPath}/leadtoQuestionTypes/leadInExcelQuestionBank?questionType="+questionTypes+"&courseType="+courseType;
-    //             document.getElementById("questionTypesManage").submit();
-    //             $.messager.alert('提示','操作成功！','info');
-    //         }else{
-    //             $.messager.alert('提示','请选择xls格式文件！','info');
-    //             $('#uploadExcel').filebox('setValue','');
-    //         }
-    //     }
-    // }else{
-    //     $.messager.alert('提示','请选择课程题型！','info');
-    // }
 }
 
 // 导出辅助
@@ -152,3 +104,25 @@ function JSONToExcel(JSONData, FileName, Title, Field) {
     link.click();
     document.body.removeChild(link);
 }
+
+// 数据网格
+$(function(){
+    $('#dg').datagrid({
+        height: 400,
+        width: 500,
+        rownumbers: true,
+        singleSelect: false,
+        checkOnSelect: true,
+        fitColumns: true,
+        collapsible: true,
+        // fit: true,                            // 全屏
+        remoteSort: false,                  // 是否从服务器排序数据
+        selectOnCheck: true,
+        striped: true,
+        nowrap: true,
+        fixRowHeight: 1,
+        columns:[[
+            {field:'result',title:'处理结果',width:400,align:'center',editor:'text'}
+        ]]
+    });
+});

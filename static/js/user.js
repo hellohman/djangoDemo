@@ -91,7 +91,7 @@ function deleteData() {
                 }
             });
         } else {
-            $.messager.alert('提示','请至少勾选一条数据 或 填写用户名！','warning');
+            $.messager.alert('提示','请 至少勾选一条数据 或 填写用户名！','warning');
         }
     }
 }

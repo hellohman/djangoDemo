@@ -6,14 +6,15 @@
     <link rel="stylesheet" type="text/css" href="/static/jquery-easyui-1.6.2/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="/static/jquery-easyui-1.6.2/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="/static/jquery-easyui-1.6.2/demo/demo.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/user.css">
     <script type="text/javascript" src="/static/jquery-easyui-1.6.2/jquery.min.js"></script>
     <script type="text/javascript" src="/static/jquery-easyui-1.6.2/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/static/jquery-easyui-1.6.2/jquery.easyui.mobile.js"></script>
     <script type="text/javascript" src="/static/js/userOption.js"></script>
     <title>测试</title>
 </head>
-<body class="easyui-layout" style="margin-top:10px;margin-bottom: 10px;">
-<div id="navigation" data-options="region:'west',split:true,title:'导航栏'" style="width:200px;padding:10px;">
+<body class="easyui-layout">
+<div id="navigation" data-options="region:'west',split:true,title:'导航栏'">
     <h2>参考手册1</h2>
     <ul id="left_1">
         <li>
@@ -33,19 +34,20 @@
         </li>
     </ul>
 </div>
-<div data-options="region:'center',split:true,title:'用户批量操作'" >
-
-    <div class="easyui-panel" title="数据导出" style="width:260px;padding:10px 20px;">
-        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="exportData()" style="width:90px;">数据导出</a>
-        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help'" onclick="downloadModel()" style="width:120px;">操作模板下载</a>
+<div id="right" data-options="region:'center',split:true,title:'用户批量操作'" >
+    <div class="easyui-panel" title="1. 导出数据">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="exportData()" style="width:90px;margin-left: 5px">数据导出</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-help'" onclick="downloadModel()" style="width:120px;margin-left: 20px">操作模板下载</a>
     </div>
 
+    <div class="easyui-panel" title="2. 导入数据">
     <form id="questionTypesManage"  method="post" enctype="multipart/form-data">
-        选择文件：　<input id="uploadExcel" name="uploadExcel" class="easyui-filebox" style="width:200px" data-options="prompt:'请选择文件...'">
-        　　<a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload'" onclick="uploadExcel()" style="width:90px;">数据导入</a>     　　　　　
+        <input id="uploadExcel" name="uploadExcel" class="easyui-filebox" style="width:200px" required="required" data-options="prompt:'请选择文件...'">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-reload'" onclick="uploadExcel()" style="width:90px;margin-left:20px;">开始导入</a>     　　　　　
     </form>
+    </div>
 
-{#    <table id="dg" title="数据处理情况" ></table>#}
+    <table id="dg" title="3. 数据处理失败列表"></table>
 </div>
 </body>
 </html>
