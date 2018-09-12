@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/cmdb/HhHelper/paramsHelper.py" afterPath="$PROJECT_DIR$/cmdb/HhHelper/paramsHelper.py" />
-    </list>
+    <list default="true" id="5011e996-be6d-49a5-b778-67593c61587a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_view.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_view.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmdb/myViews/user_view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="664">
+              <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paramsHelper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="paramsHelper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/HhHelper/paramsHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,16 +76,6 @@
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="django.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -335,12 +323,6 @@
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangoDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -628,12 +610,12 @@
       <workItem from="1536284534532" duration="26189000" />
       <workItem from="1536542930127" duration="25049000" />
       <workItem from="1536629876117" duration="26015000" />
-      <workItem from="1536718140516" duration="23601000" />
+      <workItem from="1536718140516" duration="24243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386658000" />
+    <option name="totallyTimeSpent" value="387300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,7 +729,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="154" />
+      <option name="time" value="155" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1067,18 +1049,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmdb/myViews/user_view.py">
+    <entry file="file://$PROJECT_DIR$/cmdb/HhHelper/paramsHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmdb/HhHelper/paramsHelper.py">
+    <entry file="file://$PROJECT_DIR$/cmdb/myViews/user_view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="664">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
           <folding />
         </state>
       </provider>
