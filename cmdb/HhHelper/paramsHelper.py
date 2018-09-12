@@ -2,11 +2,12 @@ import datetime
 
 
 def dl_beginAndStopDate(beginDate=None, stopDate=None):
-    beginArr, stopArr = [1, 1, 1753], [12, 31, 9999]
+    beginArr, stopArr = (1753, 1, 1), (9999, 12, 31)
     if beginDate and stopDate:
-        beginArr, stopArr = [int(aa) for aa in beginDate.split("/")], [int(aa) for aa in stopDate.split("/")]
+        beginArr = (int(aa) if aa[0] != '0' else int(aa[1]) for aa in beginDate.split("-"))
+        stopArr = (int(aa) if aa[0] != '0' else int(aa[1]) for aa in stopDate.split("-"))
     elif beginDate:
-        beginArr = [int(aa) for aa in beginDate.split("/")]
+        beginArr = (int(aa) if aa[0] != '0' else int(aa[1]) for aa in beginDate.split("-"))
     elif stopDate:
-        stopArr = [int(aa) for aa in stopDate.split("/")]
-    return datetime.date(beginArr[2],beginArr[0],beginArr[1]), datetime.date(stopArr[2],stopArr[0],stopArr[1])
+        stopArr = (int(aa) if aa[0] != '0' else int(aa[1]) for aa in stopDate.split("-"))
+    return datetime.date(*beginArr), datetime.date(*stopArr)
