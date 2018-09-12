@@ -120,7 +120,6 @@ def userOption(request):
                     data_type = int(table.row_values(i)[index_dic['操作类型(1-修改数据；2-新增数据；3-删除数据)']])
                     data_user = str(table.row_values(i)[index_dic['用户名']])
                     data_pswd = str(table.row_values(i)[index_dic['密码']])
-                    print('id:{} - type:{} - user:{} - pswd:{}'.format(data_id,data_type,data_user,data_pswd))
                     # 2.操作
                     if data_type == 1:        # 修改
                         models.UserInfo.objects.filter(id=data_id).update(pswd=data_pswd)

@@ -36,6 +36,7 @@ function uploadExcel() {
                 }
                 $('#dg').datagrid('loadData',data);
                 $.messager.alert('提示','导入完毕，处理结果如下！','info');
+                document.getElementById("dg").title = "3. 数据处理失败列表 - 共" + data.total + "条失败数据！";
             }
         }
     });
@@ -110,12 +111,10 @@ $(function(){
     $('#dg').datagrid({
         height: 400,
         width: 500,
-        rownumbers: true,
+        // rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,
         fitColumns: true,
-        collapsible: true,
-        // fit: true,                            // 全屏
         remoteSort: false,                  // 是否从服务器排序数据
         selectOnCheck: true,
         striped: true,
