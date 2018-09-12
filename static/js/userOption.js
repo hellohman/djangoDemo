@@ -39,7 +39,7 @@ function uploadExcel() {
                     forExport = result['forExport'];
                     data = result['forDatagrid'];
                 }
-                document.getElementsByClassName('panel datagrid panel-htop easyui-fluid')[0].setAttribute("style","display:block");
+                document.getElementsByClassName('panel datagrid panel-htop easyui-fluid')[0].setAttribute("style","display:block;");
                 $('#dg').datagrid('loadData',data);
                 $.messager.alert('提示','导入完毕，处理结果如下！','info');
                 document.getElementsByClassName('panel-title')[4].innerHTML += " - 共" + data.total + "条失败数据！";
@@ -51,8 +51,8 @@ function uploadExcel() {
 // 数据网格
 $(function(){
     $('#dg').datagrid({
-        height: 350,
         fit: true,                            // 全屏
+        height: 350,
         // rownumbers: true,
         singleSelect: false,
         checkOnSelect: true,

@@ -63,7 +63,7 @@ function deleteData() {
         $.messager.confirm('确认', '确认删除' + selRows.length + '条数据吗？', function(r){
             if (r){
                 var params = {
-                    data: JSON.stringify(selRows),
+                    rows: JSON.stringify(selRows),
                     pageNumber: dgPageNumber,
                     pageSize: dgPageSize
                 };
@@ -74,25 +74,27 @@ function deleteData() {
             }
         });
     } else {            // 输入形式
-        var arr = dl_form("#search");
-        var user = arr[0].value;
-        if (user != null && user !== "") {
-            $.messager.confirm('确认', '确认删除用户名为 ' + user + ' 的数据吗？', function(r){
-                if (r){
-                    var params = {
-                        data: JSON.stringify([{user:user}]),
-                        pageNumber: dgPageNumber,
-                        pageSize: dgPageSize
-                    };
-                    $.post('/deleteData/',params,function (result) {
-                        $.messager.alert('提示','成功删除用户名为 ' + user + ' 的数据！','info');
-                        dl_datagrid(result);
-                    })
-                }
-            });
-        } else {
-            $.messager.alert('提示','请 至少勾选一条数据 或 填写用户名！','warning');
-        }
+        $.messager.alert('提示','请至少勾选一条数据！','warning');
+
+        // var arr = dl_form("#search");
+        // var user = arr[0].value;
+        // if (user != null && user !== "") {
+        //     $.messager.confirm('确认', '确认删除用户名为 ' + user + ' 的数据吗？', function(r){
+        //         if (r){
+        //             var params = {
+        //                 data: JSON.stringify([{user:user}]),
+        //                 pageNumber: dgPageNumber,
+        //                 pageSize: dgPageSize
+        //             };
+        //             $.post('/deleteData/',params,function (result) {
+        //                 $.messager.alert('提示','成功删除用户名为 ' + user + ' 的数据！','info');
+        //                 dl_datagrid(result);
+        //             })
+        //         }
+        //     });
+        // } else {
+        //     $.messager.alert('提示','请 至少勾选一条数据 或 填写用户名！','warning');
+        // }
     }
 }
 

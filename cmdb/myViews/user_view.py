@@ -45,7 +45,7 @@ def queryData(request):
 
 # 删除数据
 def deleteData(request):
-    data = json.loads(request.POST['data'])
+    data = json.loads(request.POST['rows'])
     pageNumber, pageSize = int(request.POST.get('pageNumber', None)), int(request.POST.get('pageSize', None))
     for index, each in enumerate(data, 1):
         try:
