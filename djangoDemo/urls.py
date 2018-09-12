@@ -17,16 +17,20 @@ from django.contrib import admin
 from django.urls import path
 
 from cmdb import views
+from cmdb.myViews import login_view
+from cmdb.myViews import register_view
+from cmdb.myViews import user_view
+from cmdb.myViews import userOption_view
 
 urlpatterns = [
-    path(r'login/', views.login),                        # 登录页面
-    path(r'register/', views.register),                 # 注册页面
+    path(r'login/', login_view.login),                           # 登录页面
+    path(r'register/', register_view.register),                 # 注册页面
 
-    path(r'user/', views.user),                          # 用户页面
-    path(r'queryData/', views.queryData),               # 查询: 精确 + 模糊
-    path(r'deleteData/', views.deleteData),             # 删除数据
-    path(r'exportData/', views.exportData),             # 导出数据
-    path(r'editRow/', views.editRow),                   # 修改、添加数据
+    path(r'user/', user_view.user),                              # 用户页面
+    path(r'queryData/', user_view.queryData),                   # 查询: 精确 + 模糊
+    path(r'deleteData/', user_view.deleteData),                 # 删除数据
+    path(r'exportData/', user_view.exportData),                 # 导出数据
+    path(r'editRow/', user_view.editRow),                       # 修改、添加数据
 
-    path(r'user/userOption/', views.userOption),       # 用户批量操作页面
+    path(r'user/userOption/', userOption_view.userOption),     # 用户批量操作页面
 ]

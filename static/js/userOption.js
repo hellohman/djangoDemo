@@ -1,3 +1,5 @@
+var forExport;
+
 // 导出数据
 function exportData() {
     $.post('/exportData/',function (result) {
@@ -30,17 +32,43 @@ function uploadExcel() {
             } else {
                 var data;
                 if (typeof result === "string") {
-                    data = JSON.parse(result);                  // 转json
+                    var helpDic = JSON.parse(result);                  // 转json
+                    forExport = helpDic['forExport'];
+                    data = helpDic['forDatagrid'];
                 } else {
-                    data = result;
+                    forExport = result['forExport'];
+                    data = result['forDatagrid'];
                 }
+                document.getElementsByClassName('panel datagrid panel-htop easyui-fluid')[0].setAttribute("style","display:block");
                 $('#dg').datagrid('loadData',data);
                 $.messager.alert('提示','导入完毕，处理结果如下！','info');
-                document.getElementById("dg").title = "3. 数据处理失败列表 - 共" + data.total + "条失败数据！";
+                document.getElementsByClassName('panel-title')[4].innerHTML += " - 共" + data.total + "条失败数据！";
             }
         }
     });
 }
+
+// 数据网格
+$(function(){
+    $('#dg').datagrid({
+        height: 350,
+        fit: true,                            // 全屏
+        // rownumbers: true,
+        singleSelect: false,
+        checkOnSelect: true,
+        fitColumns: true,
+        remoteSort: false,                  // 是否从服务器排序数据
+        selectOnCheck: true,
+        striped: true,
+        nowrap: true,
+        fixRowHeight: 1,
+        toolbar: '#tb',
+        columns:[[
+            {field:'result',title:'处理结果',width:400,align:'center',editor:'text'}
+        ]]
+    });
+    document.getElementsByClassName('panel datagrid panel-htop easyui-fluid')[0].setAttribute("style","display:none");
+});
 
 // 导出辅助
 function JSONToExcel(JSONData, FileName, Title, Field) {
@@ -105,23 +133,3 @@ function JSONToExcel(JSONData, FileName, Title, Field) {
     link.click();
     document.body.removeChild(link);
 }
-
-// 数据网格
-$(function(){
-    $('#dg').datagrid({
-        height: 400,
-        width: 500,
-        // rownumbers: true,
-        singleSelect: false,
-        checkOnSelect: true,
-        fitColumns: true,
-        remoteSort: false,                  // 是否从服务器排序数据
-        selectOnCheck: true,
-        striped: true,
-        nowrap: true,
-        fixRowHeight: 1,
-        columns:[[
-            {field:'result',title:'处理结果',width:400,align:'center',editor:'text'}
-        ]]
-    });
-});

@@ -56,7 +56,7 @@
     padding: 10px;
 }
 .easyui-panel {
-    width:260px;
-    padding:10px 20px;
+    /*width:260px;*/
+    padding:15px 20px;
     margin-bottom: 20px;
 }

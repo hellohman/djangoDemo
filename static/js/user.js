@@ -105,7 +105,6 @@ $(function(){
         loadMsg: '数据加载中...',
         pagination: true,
         pageSize: 10,
-        width:1000,
         height:600,
         pageList: [10,20,30,50],
         rownumbers: true,
