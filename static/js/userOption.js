@@ -48,6 +48,16 @@ function uploadExcel() {
     });
 }
 
+// 导出失败数据
+function export_failedDataExcel() {
+    var param = {data:JSON.stringify(forExport)};
+    $.post('export_failedDataExcel/',param,function (result) {
+        alert(result)
+        // $.messager.alert('提示','成功删除' + selRows.length + '条数据！','info');
+        // dl_datagrid(result);
+    })
+}
+
 // 数据网格
 $(function(){
     $('#dg').datagrid({

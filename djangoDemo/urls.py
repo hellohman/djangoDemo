@@ -33,4 +33,5 @@ urlpatterns = [
     path(r'editRow/', user_view.editRow),                       # 修改、添加数据
 
     path(r'user/userOption/', userOption_view.userOption),     # 用户批量操作页面
+    path(r'user/userOption/export_failedDataExcel/', userOption_view.export_failedDataExcel)
 ]

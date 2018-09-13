@@ -11,30 +11,30 @@
     <script type="text/javascript" src="/static/jquery-easyui-1.6.2/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/static/jquery-easyui-1.6.2/jquery.easyui.mobile.js"></script>
     <script type="text/javascript" src="/static/js/userOption.js"></script>
-    <title>用户信息批量管理</title>
+    <title>用户批量管理</title>
 </head>
 <body class="easyui-layout">
 <div id="navigation" data-options="region:'west',split:true,title:'导航栏'">
     <h2>用户管理</h2>
     <ul id="left_1">
         <li>
-            <a href="/user/" title="test">用户信息管理</a>
+            <a href="/user/" title="test">用户管理</a>
         </li>
         <li>
-            <a href="/user/userOption/" title="test">用户信息批量管理</a>
+            <a href="/user/userOption/" title="test">用户批量管理</a>
         </li>
     </ul>
     <h2>用户管理</h2>
     <ul id="left_1">
         <li>
-            <a href="/user/" title="test">用户信息管理</a>
+            <a href="/user/" title="test">用户管理</a>
         </li>
         <li>
-            <a href="/user/userOption/" title="test">用户信息批量管理</a>
+            <a href="/user/userOption/" title="test">用户批量管理</a>
         </li>
     </ul>
 </div>
-<div id="right" data-options="region:'center',split:true,title:'用户信息批量管理'">
+<div id="right" data-options="region:'center',split:true,title:'用户批量管理'">
 
     <div class="easyui-panel" title="1. 导出数据" >
         <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="exportData()" style="width:90px">数据导出</a>
@@ -50,7 +50,7 @@
 
     <table id="dg" title="3. 数据处理失败列表"></table>
     <div id="tb">
-        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="checkAll()" style="width:120px;margin:5px 15px;">导出失败数据</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'" onclick="export_failedDataExcel()" style="width:120px;margin:5px 15px;">导出失败数据</a>
     </div>
 </div>
 </body>
