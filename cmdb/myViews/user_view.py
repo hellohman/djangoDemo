@@ -61,6 +61,8 @@ def deleteData(request):
 # 导出数据
 def exportData(request):
     data = list(models.UserInfo.objects.all().order_by('-create_time').values('id', 'user', 'pswd', 'create_time'))
+    for each in data:
+        each['create_time'] = each['create_time'].strftime("%Y-%m-%d %H:%M:%S")
     return HttpResponse(json.dumps(data), content_type="application/json")
 
 
