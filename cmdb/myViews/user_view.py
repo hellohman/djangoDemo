@@ -60,10 +60,8 @@ def deleteData(request):
 
 # 导出数据
 def exportData(request):
-    data = list(models.UserInfo.objects.all().order_by('-create_time').values('id', 'user', 'pswd', 'create_time'))
-    for each in data:
-        each['create_time'] = each['create_time'].strftime("%Y-%m-%d %H:%M:%S")
-    return HttpResponse(json.dumps(data), content_type="application/json")
+    json_data = dl_rows2TotalRowsJson(models.UserInfo.objects.all().order_by('-create_time').values('id', 'user', 'pswd', 'create_time'), time_fieldsArr=['create_time'])
+    return HttpResponse(json_data, content_type="application/json")
 
 
 # 修改、添加数据
@@ -74,12 +72,12 @@ def editRow(request):
         # 修改用户
         dataId = int(request.POST.get('id', None))
         models.UserInfo.objects.filter(id=dataId).update(pswd=pswd)
-        data = list(models.UserInfo.objects.filter(Q(id=dataId)).values('id', 'user', 'pswd', 'create_time'))
-        return HttpResponse(json.dumps(data), content_type="application/json")
+        json_data = dl_rows2TotalRowsJson(models.UserInfo.objects.filter(Q(id=dataId)).values('id', 'user', 'pswd', 'create_time'), time_fieldsArr=['create_time'])
+        return HttpResponse(json_data, content_type="application/json")
     except:
         # 新增用户
         if user not in [each.user for each in models.UserInfo.objects.all()]:
             models.UserInfo.objects.create(user=user, pswd=pswd)
-            data = list(models.UserInfo.objects.filter(Q(user=user)).values('id', 'user', 'pswd', 'create_time'))
-            return HttpResponse(json.dumps(data), content_type="application/json")
+            json_data = dl_rows2TotalRowsJson(models.UserInfo.objects.filter(Q(user=user)).values('id', 'user', 'pswd', 'create_time'), time_fieldsArr=['create_time'])
+            return HttpResponse(json_data, content_type="application/json")
         return HttpResponse("用户名已存在")
